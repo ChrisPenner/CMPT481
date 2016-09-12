@@ -1,0 +1,30 @@
+application: look-go
+version: use-deploy-script
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: /api/.*
+  script: app.main.app
+  login: admin
+
+- url: /admin.*
+  script: app.main.app
+  login: admin
+
+- url: /static
+  login: admin
+  expiration: 364d
+  static_dir: static
+
+- url: /.*
+  login: admin
+  expiration: 1s
+  static_files: static/index.html
+  upload: static/index.html
+
+libraries:
+- name: jinja2
+  version: latest

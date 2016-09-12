@@ -1,0 +1,7 @@
+*.pyc
+app/secrets.py*
+node_modules/
+/dist/
+/high-fidelity/server/static/
+npm-debug.log
+/.tmp/

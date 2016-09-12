@@ -1,0 +1,15 @@
+machine:
+  environment:
+    # Add app engine sdk to pythonpath for local unit tests.
+    PYTHONPATH: ${PYTHONPATH}:${HOME}/google_appengine:${HOME}/google_appengine/lib/yaml-3.10/:${HOME}/google_appengine/lib/webapp2-2.5.2:${HOME}/google_appengine/lib/webob-1.2.3
+
+dependencies:
+  pre:
+    # Download App Engine SDK
+    - curl -o $HOME/google_appengine_1.9.40.zip https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.40.zip
+    - unzip -q -d $HOME $HOME/google_appengine_1.9.40.zip
+
+test:
+  override:
+    - npm test
+    - nosetests server/test/

@@ -1,0 +1,9 @@
+[ignore]
+
+[include]
+
+[libs]
+.flow-declarations/
+
+[options]
+suppress_type=$FlowIssue
