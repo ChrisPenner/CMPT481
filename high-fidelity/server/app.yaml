@@ -1,4 +1,4 @@
-application: look-go
+application: cmpt481
 version: use-deploy-script
 runtime: python27
 api_version: 1
