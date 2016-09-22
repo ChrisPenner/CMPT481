@@ -9,6 +9,8 @@ import store from './store'
 import * as Routes from './routes'
 import { Toasts } from './lib/wisp'
 
+import Calendar from './calendar'
+
 type appArgs = {}
 const App = connect()
 (({}) => {
@@ -24,7 +26,8 @@ const App = connect()
       </nav>
       <Toasts/>
       <section className="section is-fullwidth">
-        <h1 className="title">My App</h1>
+        <h1 className="title">Calendar</h1>
+        <Calendar />
       </section>
     </div>
   )})

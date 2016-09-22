@@ -1,6 +1,7 @@
 import R from 'ramda'
 
 const actionsList = [
+  "SELECT_DAY"
 ]
 
 const actionTypeCreators = {

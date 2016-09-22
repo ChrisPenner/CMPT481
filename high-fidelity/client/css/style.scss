@@ -2,60 +2,62 @@
     margin: auto;
 }
 
-.highlight {
-  background: green;
-}
+$border-color: rgba(70, 70, 70, 0.1);
 
-.my-list {
-  display: flex;
-  flex-flow: column nowrap;
-    background-color: #fff;
-    color: #222324;
-    margin-bottom: 20px;
-    width: 100%;
-
-  .my-list-item {
-    border: 1px solid #d3d6db;
-    border-width: 1px;
-    padding: 8px 10px;
-    vertical-align: top;
+.day {
+  border-right: 1px solid $border-color;
+  transition: all 0.3s;
+  &:hover {
+    background: #F3F3F3;
+  }
+  &:hover .title {
+    color: #00aaca;
+    cursor: pointer;
   }
 
-  .my-list-item + .my-list-item {
-    border: 1px solid #d3d6db;
-    border-width: 0 1px 1px 1px;
-    padding: 8px 10px;
-    vertical-align: top;
-  }
-
-  .highlighted {
-    background: #defafc;
+  &.focused {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    background: rgba(255, 255, 100, 0.95);
   }
 }
 
-.message-header {
-  button + button {
-    margin-left: 5px;
+.week {
+  min-height: 6em;
+  border-top: 1px solid $border-color;
+  position: relative;
+
+  .bar {
+    height: 1em;
+    width: 0;
+    opacity: 0;
+    background: red;
+    position: absolute;
+    transition: all 0.7s;
   }
-}
 
-.faded {
-  color: #69707a;
-  font-size: 0.9em;
-  font-weight: normal;
-}
+  &:hover .bar1 {
+    opacity: 0.3;
+    background: red;
+    width: 80%;
+  }
 
+  &:hover .bar2 {
+    opacity: 0.3;
+    background: blue;
+    top: 1.5em;
+    width: 20%;
+  }
 
-.blue {
-  background: #defafc;
-}
-
-.green {
-  background: #f4faf0;
-}
-
-.yellow {
-  background: #fffbeb;
+  &:hover .bar3 {
+    opacity: 0.3;
+    background: green;
+    top: 3em;
+    width: 60%;
+  }
 }
 
 .toasts {
