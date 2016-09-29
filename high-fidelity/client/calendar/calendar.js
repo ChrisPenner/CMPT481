@@ -25,6 +25,7 @@ const Week = ({start, selectDay}) => {
       <div className="bar1 bar"> </div>
       <div className="bar2 bar"> </div>
       <div className="bar3 bar"> </div>
+      <div className="bar4 bar"> </div>
     </div>
 )}
 
