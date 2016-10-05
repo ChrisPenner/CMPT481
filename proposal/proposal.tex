@@ -59,7 +59,28 @@ breaklinks=true,
   See list of the limited ACM 16 terms in the instructions, see http://www.sheridanprinting.com/sigchi/generalterms.htm.
 }
 
-\section{Problem}
+\section{Problem \& Motivation}
+
+In 1980, the ratio for debt-to-income in Canada is 66\%; that ratio passed the 150\% figure in 2011. At a young age 
+Canadians are taught how to count and spend money but we are not all taught how to budget effectively. Whether you're 
+a business owner, student, or bringing home the bacon for your family; it's important to budget. Budgeting allows a 
+person to determine if they will have enough money for what they need to do and what they would like to do. The reason
+people typically tend to fall into debt is due to the fact that they're spending more than they expect to spend. If a 
+person was to set aside a predetermined amount of money they'd spend a week/month and they were able to visually see what 
+they're spending versus what they're saving if they don't spend the total amount then that person could potentially 
+be more cautious of what they're spending recreationally.
+
+Where people spend money every day it can be easy to forget to add smaller expenses or a large quantity of separate 
+expenses. Reason being due to depending on their method of choice for budgeting, the input of their expenses may be 
+difficult to execute in a timely fashion. With current applications that are purposed towards tracking 
+weekly/monthly allocated spending funds on recreational purposes (non reoccuring bills/expenses,) they are not not 
+very easy or engaging to use. Engaging in regards to the visualization used is not easy to distinctly see where the 
+money is being spent, whether it be food/clothes/music/games/etc. Easy to use in regards to adding expenses, or navigating 
+the application where there may be "too much going on". The portability of the application can also be an issue whether the 
+usage is the same when using it on a desktop versus mobile device, between different mobile devices, and between different 
+internet browsers. 
+
+
 
 \begin{enumerate}
     \item Current Budgeting apps are not user friendly
@@ -73,8 +94,6 @@ breaklinks=true,
 
 (Include crappy interface photos here)
 
-\section{Motivation}
-
 \begin{enumerate}
 \item Want to display data clearly at a glance in a way that encourages action
 \item Allow people to understand where they're using their money
@@ -87,24 +106,53 @@ breaklinks=true,
 
 \section{Solution}
 
-\begin{enumerate}
-    \item Mobile first web-app
-    \item Allows inputting expenses in a matter of seconds
-    \item Allows at a glance view of spending habits
-    \item 'Quick Expense' screen
-\end{enumerate}
+Our application seeks to address the aforementioned problems by implementing a
+simple-to-use interface that streamlines the experience by omitting any
+unnecessary frills and features in an attempt to focus the user on the areas
+that are most important. Our application will feature a 'Quick Expense' screen
+which allows users to enter an expense in its category in a matter of seconds.
+We will experiment with the trade-off between accuracy and ease-of-use, for
+example omitting the cents portion of cost inputs to simplify the interface.
+
+Another component of ease-of-use is availability, which
+we provide by implementing the system as a mobile friendly web application which
+can be accessed from anywhere internet is available. This ensures that the user 
+has access to the application at the time that they are completing transactions.
+
+The primary action of viewing spending habits involves presenting data in a way
+that is easy for the consumer to both view and act upon. The most important
+metric of past spending is how the amount spent in each category relates to
+their expected cost in that area. This application will allow views of expenses
+over time filterable by category; the amount spent in the category will be
+contrasted with the expected amount spent in that category over that time
+interval as predicted by the user. This allows the user to determine areas where
+there is a misalignment between their actions and intentions giving them an
+actionable area of improvement.
 
 \subsection{Steps to Solution}
 
-\begin{enumerate}
-    \item Spec out data models
-    \item Create restful API for models
-    \item Create the Quick Expense Screen
-    \item Create the View Expenses screen
-    \item Wire up backend functionality and data-processing
-    \item Make it pretty
-    \item UI polish (e.g. animations, etc.)
-\end{enumerate}
+Several steps are required to achieve our goals.  We will begin by prototyping
+several user-interfaces which facilitate our primary actions. We may involve
+external parties to determine which interfaces are the easiest to understand in
+an attempt to make the interface as self-evident as possible. This stage should
+result in a prototype for the 'Quick Expense' screen, one for the 'Expenses
+Viewer' screen, and a notion for how to tie the two screens together.
+
+At this point we may begin to consider our implementation, and will take time
+to examine possible data models and system infrastructure. We should ensure
+that our models are flexible enough to adapt to the inevitable changes that will
+occur during the concrete implementation stage.
+
+Once we have an understanding of how our application will be linked together we
+may begin our implementation. We will start by implementing an MVP (minimal
+viable product) which has the bare minimum functionality in each section so that
+we can get a feel for how the application operates. We will then perform
+progressive enhancement on each component until we are satisfied.
+
+We will require a REST-ful API for any data that will be persisted. We will of
+course need to implement the views and behaviour for the 'Quick Expense' and
+'Expenses Viewer' screens. Since user experience is a top priority we will spend
+significant time improving look and feel through styling and animations.
 
 \section{Evaluation}
 To evaluate how our web app works for the purpose of this class, we will compare it to a commercial
