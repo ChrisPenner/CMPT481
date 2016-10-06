@@ -5,3 +5,8 @@ node_modules/
 /high-fidelity/server/static/
 npm-debug.log
 /.tmp/
+
+*.dvi
+*.aux
+*.log
+*.out
