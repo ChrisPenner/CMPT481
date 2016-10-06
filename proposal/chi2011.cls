@@ -140,7 +140,7 @@
                                 % marginal note
 
                                 % Top of page:
-\topmargin 4.5pc                % Nominal distance from top of page to top of
+\topmargin 2.5pc                % Nominal distance from top of page to top of
 %\topmargin 6.5pc                % Nominal distance from top of page to top of  % 00-09-07 job (for A4)
                                 % box containing running head.
 \advance\topmargin by -1in      % Correct for LaTeX gratuitousness
@@ -626,16 +626,16 @@
 
 \def\maketitle{\par
  \begingroup
-   \def\thefootnote{\fnsymbol{footnote}}
+   % \def\thefootnote{\fnsymbol{footnote}}
    \def\@makefnmark{\hbox
        to 0pt{$^{\@thefnmark}$\hss}}
      \twocolumn[\@maketitle]
-\@thanks
+% \@thanks
  \endgroup
  \setcounter{footnote}{0}
  \let\maketitle\relax
  \let\@maketitle\relax
- \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\gdef\@subtitle{}\let\thanks\relax
+ % \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\gdef\@subtitle{}\let\thanks\relax
  % \@copyrightspace
  } % JRB 2008-08-13 this line was commented out for some reason
                    % which meant that the copyright space wasn't reserved.
