@@ -1474,22 +1474,22 @@
 
 % Need Copyright Year and Copyright Data to be user definable (in .tex file).
 % Gerry Nov. 30th. 1999
-\newtoks\copyrtyr
-\newtoks\acmcopyr
-\newtoks\boilerplate
-\def\CopyrightYear#1{\global\copyrtyr{#1}}
-\def\crdata#1{\global\acmcopyr{#1}}
-\def\permission#1{\global\boilerplate{#1}}
+% \newtoks\copyrtyr
+% \newtoks\acmcopyr
+% \newtoks\boilerplate
+% \def\CopyrightYear#1{\global\copyrtyr{#1}}
+% \def\crdata#1{\global\acmcopyr{#1}}
+% \def\permission#1{\global\boilerplate{#1}}
 %
-\newtoks\copyrightetc
-\global\copyrightetc{\ } %  Need to have 'something' so that adequate space is left for pasting in a line if "confinfo" is supplied.
+% \newtoks\copyrightetc
+% \global\copyrightetc{\ } %  Need to have 'something' so that adequate space is left for pasting in a line if "confinfo" is supplied.
 
-\toappear{Permission to make digital or hard copies of all or part of this
-work for personal or classroom use is granted without fee provided that 
-copies are not made or distributed for profit or commercial advantage and
-that copies bear this notice and the full citation on the first page. To
-copy otherwise, or republish, to post on servers or to redistribute to 
-lists, requires prior specific permission and/or a fee.\\
-{\confname{CHI 2011}}, May 7--12, 2011, Vancouver, BC, Canada.\\
-Copyright 2011 ACM 978-1-4503-0267-8/11/05...\$10.00.}
+% \toappear{Permission to make digital or hard copies of all or part of this
+% work for personal or classroom use is granted without fee provided that 
+% copies are not made or distributed for profit or commercial advantage and
+% that copies bear this notice and the full citation on the first page. To
+% copy otherwise, or republish, to post on servers or to redistribute to 
+% lists, requires prior specific permission and/or a fee.\\
+% {\confname{CHI 2011}}, May 7--12, 2011, Vancouver, BC, Canada.\\
+% Copyright 2011 ACM 978-1-4503-0267-8/11/05...\$10.00.}
 % End of chi2011.cls - version 0.15
