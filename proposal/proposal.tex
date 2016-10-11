@@ -4,6 +4,9 @@
 \usepackage{graphics}
 \usepackage{color}
 \usepackage[pdftex]{hyperref}
+\usepackage[backend=bibtex,style=verbose-trad2]{biblatex}
+% \usepackage{apacite}
+
 \hypersetup{%
     pdftitle={CMPT 481 Project Proposal},
 pdfauthor={Birkenstocks \& Socks: Peggy Anderson, Chris Penner, Jonathan Baxter},
@@ -23,6 +26,7 @@ breaklinks=true,
 
 \pagenumbering{arabic}  % Arabic page numbers for submission.  Remove this line to eliminate page numbers for the camera ready copy
 
+\bibliography{proposal}
 \begin{document}
 % To make various LaTeX processors do the right thing with page size.
 \special{papersize=8.5in,11in}
@@ -51,7 +55,7 @@ breaklinks=true,
 
 \section{Problem \& Motivation}
 
-In 1980, the ratio for debt-to-income in Canada is 66\%; that ratio passed the 150\% figure in 2011. At a young age
+In 1980, the ratio for debt-to-income in Canada is 66\%; that ratio passed the 150\% figure in 2011 \autocite[1]{STATSCAN:1}. At a young age
 Canadians are taught how to count and spend money but we are not all taught how to budget effectively. Whether you are
 a business owner, student, or bringing home the bacon for your family; it is important to budget. Budgeting allows a
 person to determine if they will have enough money for what they need to do and what they would like to do. The reason
@@ -117,6 +121,6 @@ will be asked to perform a series of tasks, using the NASA TLX questionnaire to 
 on both applications. The TLX questionnaire will be accompanied by a qualitative questionnaire 
 which will focus on the ease of use of each application and whether they would like to keep using the
 application that we have built.
-\bibliographystyle{acm-sigchi} \bibliography{proposal}
+\printbibliography
 
 \end{document}
