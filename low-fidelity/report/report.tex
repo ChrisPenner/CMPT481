@@ -94,11 +94,11 @@ spending in each category over specific time ranges (month, week, etc.).
     \subsection{Inspection Method}
     We decided to use the Cognitive Walkthrough to evaluate our prototype. We
 	chose the Cognitive Walkthrough because of the limited number of tasks in
-	our application. There is only three task that can be performed in our
-	application and the Cognitive Walkthrough let us focus on each of these
-	tasks and scrutinized the steps that a user would take to complete these
-	tasks. Using this process let us find some bugs in the interface that may of
-	not of been noticed otherwise.
+    our application. There are only three tasks that can be performed in our
+    application and the Cognitive Walkthrough allows us to focus on each of these
+	tasks and scrutinize the steps that a user would take to complete these
+    tasks. This process helped us find some bugs in the interface that may not
+    have been noticed otherwise.
 
     \subsection{Task Examples}
     \begin{itemize}
@@ -109,31 +109,44 @@ spending in each category over specific time ranges (month, week, etc.).
     \end{itemize}
 
     \subsection{Method}
+
     The inspection was conducted by our three group members, each of us worked through one of the given tasks. We
     tried our best to approach the task as a new user. Another group members controlled the prototypes as the user
     explained their intent. This also helped us to determine disparities in how we expected the application to behave.
     The third group member took notes on issues or confusion that were encountered throughout the tasks.
 
-    \subsection{Results}
+    \subsection{Results} 
+    
+    As a result of our testing we found several areas which were either not
+    as clear to the user in our prototypes as we had initially expected or
+    simply did not work towards our goals for the application. In fact, as we
+    proceeded through the 'Settings' task we realized that our understanding of
+    the way that we would achieve our application's goals was different amongst
+    group members, and that the interface we built in the prototype was missing
+    a few of our desired use-cases. This sparked a re-design which we will be
+    using in our medium-fidelity prototype.
+
+    There were also several other small things that we noticed, such as inputs
+    that may have looked like buttons, and some areas where the desired flow
+    through the page was not clear (e.g. which button do I push to submit or to
+    save?). We also noticed a few workflow concerns, for instance if the user
+    wished to cancel changes to the settings of the application there was no
+    'Cancel' button to do so.
+
+    There were a few areas where we missing headings or labels which would help
+    to clarify the meaning of controls or settings. For instance we needed to
+    add some clarifying headings as per the scope of the budget we were setting
+    (e.g. is the budget per week or per month?).
+
+
 \section{Redesign}
-\subsection{General Changes}
     \begin{itemize}
-        \item Text fields look like buttons
-        \item Could be confusing to have both Submit and Save buttons on Settings screen
-        \item Budget screen does not clarify scope of the budget (weekly, monthly, etc.)
-        \item Add a cancel button on the settings page to ignore any changes.
-    \end{itemize}
-
-\subsection{Mobile}
-    \begin{itemize}
-        \item Text fields look like buttons
-        \item Could be confusing to have both Submit and Save buttons on Settings screen
-        \item Budget screen does not clarify scope of the budget (weekly, monthly, etc.)
-        \item Add a cancel button on the settings page to ignore any changes.
-    \end{itemize}
-
-    \subsection{Desktop}
-    \begin{itemize}
-        \item 
+        \item Ensure Text fields are distinct and do not look like buttons.
+        \item Remove extraneous buttons so that the interface is less confusing and the call to action is clear.
+            Specifically have only one Submit/Save button on Settings screen.
+        \item Allow cancellation of actions to improve user experience.
+        \item Add labels and/or tooltips to clarify inputs and actions, (e.g. Specifically clarify scope of the budget
+            (weekly, monthly, etc.))
+        \item Unify interface by making add expense button and settings button symmetrical.
     \end{itemize}
 \end{document}
