@@ -2,11 +2,11 @@
 import R from 'ramda'
 import { combineReducers } from 'redux'
 import { routerReducer } from 'react-router-redux'
-
-import at from '../action-types'
-import { wispReducer } from '../lib/wisp'
+import expensesReducer from './expenses'
+import expenseFormReducer from './expenseForm'
 
 export default combineReducers({
   routing: routerReducer,
-  toasts: wispReducer,
+  expenses: expensesReducer,
+  expenseForm: expenseFormReducer,
 })

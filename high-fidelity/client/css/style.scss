@@ -1,106 +1,12 @@
-.margin-auto {
-    margin: auto;
+input {
+  margin: 5px;
 }
 
-.highlight {
-  background: green;
+.bars>div {
+  height: 2em;
+  transition: width 0.5s ease-in-out;
 }
 
-.my-list {
-  display: flex;
-  flex-flow: column nowrap;
-    background-color: #fff;
-    color: #222324;
-    margin-bottom: 20px;
-    width: 100%;
-
-  .my-list-item {
-    border: 1px solid #d3d6db;
-    border-width: 1px;
-    padding: 8px 10px;
-    vertical-align: top;
-  }
-
-  .my-list-item + .my-list-item {
-    border: 1px solid #d3d6db;
-    border-width: 0 1px 1px 1px;
-    padding: 8px 10px;
-    vertical-align: top;
-  }
-
-  .highlighted {
-    background: #defafc;
-  }
+.card-footer {
+  border: 1px solid #dbdbdb;
 }
-
-.message-header {
-  button + button {
-    margin-left: 5px;
-  }
-}
-
-.faded {
-  color: #69707a;
-  font-size: 0.9em;
-  font-weight: normal;
-}
-
-
-.blue {
-  background: #defafc;
-}
-
-.green {
-  background: #f4faf0;
-}
-
-.yellow {
-  background: #fffbeb;
-}
-
-.toasts {
-  position: fixed;
-  top: 1em;
-  right: 1em;
-  width: auto;
-  z-index: 10;
-  transition: all 1s ease-in
-}
-
-.card-enter {
-  opacity: 0.01;
-}
-
-.card-enter.card-enter-active {
-  opacity: 1;
-  transition: opacity 200ms ease-in;
-}
-
-.card-leave {
-  opacity: 1;
-}
-
-.card-leave.card-leave-active {
-  opacity: 0.01;
-  transition: opacity 200ms ease-in;
-}
-
-.toast-enter {
-  opacity: 0.01;
-}
-
-.toast-enter.toast-enter-active {
-  opacity: 1;
-  transition: opacity 200ms ease-in;
-}
-
-.toast-leave {
-  opacity: 1;
-}
-
-.toast-leave.toast-leave-active {
-  opacity: 0.01;
-  transition: opacity 400ms ease-in;
-}
-
-

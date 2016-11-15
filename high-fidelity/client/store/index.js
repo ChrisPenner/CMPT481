@@ -5,8 +5,8 @@ import { routerMiddleware } from 'react-router-redux'
 import promiseMiddleware from 'redux-promise';
 import { browserHistory } from 'react-router'
 
-import reducer from './reducers'
-import { INDEX, GET, PUT, DELETE } from './api'
+import reducer from '../reducers'
+import { INDEX, GET, PUT, DELETE } from '../api'
 
 const middleware = compose(
   applyMiddleware(

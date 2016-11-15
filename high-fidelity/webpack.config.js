@@ -2,17 +2,14 @@ var webpack = require("webpack")
 var path = require("path")
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var CircularDependencyPlugin = require('circular-dependency-plugin')
-// var ExtractTextPlugin = require("extract-text-webpack-plugin")
-// var CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: {
     'main': './main',
     'styles': [
       './client/css/style',
-      './client/css/bulma',
-      './client/css/toastr',
       './client/css/sweetalert',
+      './node_modules/bulma/css/bulma',
     ],
     'vendor': [
       'react',
@@ -88,8 +85,5 @@ module.exports = {
     new CircularDependencyPlugin({
       exclude: /node_modules/
     }),
-  // new CopyWebpackPlugin([
-  //     { from: 'assets' },
-  // ]),
   ]
 };

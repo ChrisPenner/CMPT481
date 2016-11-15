@@ -4,27 +4,20 @@ import { Router, Route, IndexRedirect, Link, browserHistory } from 'react-router
 import { Provider, connect } from 'react-redux'
 import { syncHistoryWithStore } from 'react-router-redux'
 
+import QuickExpense from './components/QuickExpense'
+import Statistics from './components/Statistics'
 import store from './store'
 
 import * as Routes from './routes'
-import { Toasts } from './lib/wisp'
 
 type appArgs = {}
 const App = connect()
 (({}) => {
   return (
     <div>
-      <nav className="nav has-shadow">
-        <div className="nav-left">
-          <span className="nav-item is-brand">CMPT481</span>
-        </div>
-        <div className="nav-right">
-          Links
-        </div>
-      </nav>
-      <Toasts/>
-      <section className="section is-fullwidth">
-        <h1 className="title">My App</h1>
+      <section className="main section is-fullwidth columns">
+        <QuickExpense/>
+        <Statistics/>
       </section>
     </div>
   )})
