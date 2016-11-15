@@ -4,7 +4,7 @@ import { Router, Route, IndexRedirect, Link, browserHistory } from 'react-router
 import { Provider, connect } from 'react-redux'
 import { syncHistoryWithStore } from 'react-router-redux'
 
-import store from './store'
+import store, { Page } from './store'
 
 import * as Routes from './routes'
 import { Toasts } from './lib/wisp'
@@ -24,7 +24,7 @@ const App = connect()
       </nav>
       <Toasts/>
       <section className="section is-fullwidth">
-        <h1 className="title">My App</h1>
+        <h1 className="title">My App, not yours</h1>
       </section>
     </div>
   )})
@@ -43,6 +43,11 @@ ReactDOM.render(
         component={App}
         >
       </Route>
+	  <Route
+		path="/haai"
+		component={Page}
+		>
+	  </Route>
       <Route
         path="*"
         component={My404} />

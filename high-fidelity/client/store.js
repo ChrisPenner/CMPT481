@@ -17,4 +17,5 @@ const middleware = compose(
   window.devToolsExtension ? window.devToolsExtension() : f => f)
 const store = createStore(reducer, middleware)
 
+export const Page = () => <div> something </div>
 export default store
