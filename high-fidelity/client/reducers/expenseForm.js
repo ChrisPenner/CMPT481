@@ -6,7 +6,7 @@ import R from 'ramda'
 import { CHANGE_EXPENSE_FORM, ADD_EXPENSE } from '../actions'
 
 const initialState = {
-  category: 'food',
+  category: '',
   cost: 0,
 }
 
@@ -17,7 +17,7 @@ const expenseFormReducer = (state:ExpenseForm=initialState, action:Action) => {
       return R.assoc(path, value, state)
 
     case ADD_EXPENSE:
-      return initialState
+      return R.assoc('cost', 0, state)
 
     default:
       return state

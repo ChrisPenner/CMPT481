@@ -5,6 +5,12 @@ import { ADD_EXPENSE } from './actions'
 export type Expense = {}
 export type Expenses = Array<Expense>
 
+export type Category = {
+  name: string
+}
+export type Categories = Array<Category>
+
+
 export type ExpenseForm = {
   category: string,
   cost: number,
@@ -20,4 +26,5 @@ export type Action = AddExpense
 export type State = {
   expenses: Expenses,
   expenseForm: ExpenseForm,
+  categories: Categories,
 }

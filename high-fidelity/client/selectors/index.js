@@ -4,6 +4,7 @@ import R from 'ramda'
 
 export const getExpenseForm = (state: State) => state.expenseForm
 export const getExpenses = (state: State) => state.expenses
+export const getCategories = (state: State) => state.categories
 
 export const getTotalSpent = (state: State) => (category: string) => {
   const expenses = getExpenses(state)

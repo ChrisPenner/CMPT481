@@ -2,12 +2,13 @@
 
 import {connect} from 'react-redux'
 import {addExpense, changeExpenseForm} from '../actions'
-import { getExpenseForm } from '../selectors'
+import { getExpenseForm, getCategories } from '../selectors'
 
-import type {State} from '../types'
+import type { State, Categories } from '../types'
 
 const stateToProps = (state: State) => ({
-  ...getExpenseForm(state),
+  form: getExpenseForm(state),
+  categories: getCategories(state),
 })
 
 const dispatchProps = {
@@ -16,29 +17,33 @@ const dispatchProps = {
 }
 
 type QuickExpenseProps = {
-  category: string,
-  cost: number,
+  form: {
+    category: string,
+    cost: number,
+  },
   addExpense: Function,
   changeExpenseForm: Function,
+  categories: Categories,
 }
 
-const QuickExpense = ({addExpense, changeExpenseForm, category, cost} : QuickExpenseProps) => (
+const QuickExpense = ({categories, addExpense, changeExpenseForm, form:{category, cost}} : QuickExpenseProps) => (
   <div className="column section card is-one-third">
     <h1 className="title"> Add an expense </h1>
-
+    <hr/>
     <label className="label">Category</label>
     <p className="control">
       <label className="select">
         <select value={category} onChange={e => changeExpenseForm('category', e.target.value)} className="select">
-          <option value="food">
-            Food
-          </option>
-          <option value="entertainment">
-            Entertainment
-          </option>
-          <option value="rent">
-            Rent
-          </option>
+              <option value=''>
+                Choose a Category
+              </option>
+          {
+            categories.map(({name}) => (
+              <option key={name} value={name}>
+                {name}
+              </option>
+            ))
+          }
         </select>
       </label>
     </p>
@@ -49,7 +54,7 @@ const QuickExpense = ({addExpense, changeExpenseForm, category, cost} : QuickExp
     </p>
 
     <footer className="card-footer">
-      <a onClick={() => addExpense()} className="card-footer-item">Submit</a>
+      <a disabled={true} onClick={() => addExpense()} className="card-footer-item">Submit</a>
     </footer>
   </div>
 )

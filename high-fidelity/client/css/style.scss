@@ -10,3 +10,27 @@ input {
 .card-footer {
   border: 1px solid #dbdbdb;
 }
+
+.columns.bars {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items:center;
+
+  &>div, &>h2 {
+     margin: 1em 0;
+  }
+  .cost-label {
+    margin: 0.3em;
+  }
+}
+
+
+.category-chart {
+  &>.subtitle {
+    margin-bottom: 0.1em !important;
+  }
+
+  & .bars {
+    margin-bottom: 0.5em;
+  }
+}
