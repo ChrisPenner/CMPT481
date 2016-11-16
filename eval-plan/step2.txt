@@ -1,0 +1,75 @@
+STEP 2
+A. 
+Post-Demo Interview. 
+
+
+
+B.
+For our evaluation Birkenstocks and Socks will be using a mixture of 5 friends/family members to be our test cases for our 481 project. 
+
+Interviewees:
+Lauren - An individual who has limited experience with computers. 
+Mitchell - A business student who has studied budgeting. 
+Adam - Has a degree in computer science and may offer some valuable criticisms. 
+One of Jonathan's Parent - Older demographic who may have budgeted using other methods in the past. 
+Lukas - Newly married individual who has recently started budgeting. 
+
+
+
+C. 
+Preface: 
+We have set out a guideline of questions/topics we would like to cover with each of the users but we are not limited to only asking what is below. 
+We can choose to not ask a specific question if we believe that the user has provided sufficient information for the question at any point during the interview.
+In the event that we choose to not ask a question we will be required to support our reasoning.
+
+The session with each user will be recorded in a quiet environment which is either suggested by primarily the interviewee, if there is no preference to them then the
+interviewer.
+	While the user is performing the tasks on our app a video recording of the user on our phone from a back side view so we can see the screen and a little bit of 
+	their face (with their permission.)
+	During the interview we will continue the video recording, however for ease of use for us we will probably have the phone on it's back (recording a tabletop) so 
+	the screen is black, recording the discussion and taking notes on a computer/paper of their answers. 
+		We will have the audio recording of the interview to allow us to review our notes and what was actually said by the user to ensure that there is no/minimal
+		misinterpretation. 
+The length of the evaluation is not anticipated to exceed 45 minutes, it will greatly depend on the quality of answers from the user. Where the quality of the 
+session will evaluated based on if their answers provide lots of detail and information. If the users have much to say then it will be on the longer end, similarly if 
+the user has difficulty navigating the system. 
+
+
+
+
+Tasks we get the users to perform
+	~ adding different expenses to two or three different categories
+	~ after adding expenses, (go to screen) for data visualization
+	~ changing the name of a category
+	~ changing the budget limit (it will originally be set to 150$)
+
+Before the user performs the aforementioned tasks we will sit down with them and ask the following questions:
+	Do you currently or have you ever budget(ed)?
+		(Yes - Probing Question) What method do you use?
+		(No - Probing Question) Is there a specific reason why?
+	
+First we will get the users to perform these tasks on a laptop/desktop browser. 
+While they are doing this we will watch how quickly and accurately they are able to fufill the tasks. 
+If they appear to be moving slowly or talking to themselves during this process we will ask them to elaborate their thought process. 
+	Was there anything thing that you found counter intuitive?
+	If you could change/add things about the app, what would it be? (From desktop perspective)
+
+We will then proceed to get the users to perform these tasks on a mobile device.
+While they are doing this we will watch how quickly and accurately they are able to fufill the tasks. 
+If they appear to be moving slowly or talking to themselves during this process we will ask them to elaborate their thought process. 
+	Was there anything thing that you found counter intuitive?
+	If you could change/add things about the app, what would it be? (From mobile perspective)
+
+
+
+We will also ask:
+How did you find the mobile interface versus the desktop interface?
+	(Probing Question) Which was easiest to use?
+	(Probing Question) For you what made the data more visually clear for you?
+
+Have you tried using other budgeting apps before, how did ours compare?
+	(Yes - Probing Question) What app allowed you fast input?
+	(Yes - Probing Question) What app allowed more accurate input?
+	(Yes - Probing Question) Are you more likely to continue using ours or the other one?
+	(No - Probing Question) Why?
+		(Probing Question) After testing this app, would you be likely to continue using it consistently? 
