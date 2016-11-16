@@ -27,7 +27,7 @@ type QuickExpenseProps = {
 }
 
 const QuickExpense = ({categories, addExpense, changeExpenseForm, form:{category, cost}} : QuickExpenseProps) => (
-  <div className="column section card is-one-third">
+  <div className="column section card is-one-third is-hidden-mobile">
     <h1 className="title"> Add an expense </h1>
     <hr/>
     <label className="label">Category</label>
@@ -53,9 +53,7 @@ const QuickExpense = ({categories, addExpense, changeExpenseForm, form:{category
       <input value={cost} onChange={e => changeExpenseForm('cost', e.target.value)} className="input" type="number "/>
     </p>
 
-    <footer className="card-footer">
-      <a disabled={true} onClick={() => addExpense()} className="card-footer-item">Submit</a>
-    </footer>
+      <button disabled={category == ''} onClick={() => addExpense()} className="button is-primary is-fullwidth">Submit</button>
   </div>
 )
 

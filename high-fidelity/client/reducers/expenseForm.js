@@ -16,9 +16,6 @@ const expenseFormReducer = (state:ExpenseForm=initialState, action:Action) => {
       const {path, value} = action.payload
       return R.assoc(path, value, state)
 
-    case ADD_EXPENSE:
-      return R.assoc('cost', 0, state)
-
     default:
       return state
   }

@@ -6,18 +6,36 @@ import { syncHistoryWithStore } from 'react-router-redux'
 
 import QuickExpense from './components/QuickExpense'
 import Statistics from './components/Statistics'
+import Settings from './components/Settings'
 import store from './store'
+import { getUi } from './selectors'
+
+import type { State, Ui } from './types'
 
 import * as Routes from './routes'
 
 type appArgs = {}
-const App = connect()
-(({}) => {
+
+const stateToProps = (state: State) => ({
+  ui: getUi(state),
+})
+
+type AppProps = {
+  ui: Ui,
+}
+
+const App = connect(stateToProps)
+(({ui:{settings}}: AppProps) => {
   return (
     <div>
-      <section className="main section is-fullwidth columns">
-        <QuickExpense/>
-        <Statistics/>
+      <section className="section is-fullwidth">
+        { settings
+          ? <Settings/>
+            : <div className="columns">
+            <QuickExpense/>
+            <Statistics/>
+          </div>
+          }
       </section>
     </div>
   )})

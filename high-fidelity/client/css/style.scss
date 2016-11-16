@@ -14,7 +14,7 @@ input {
 .columns.bars {
   display: flex;
   flex-flow: row nowrap;
-  align-items:center;
+  align-items: center;
 
   &>div, &>h2 {
      margin: 1em 0;
@@ -26,11 +26,34 @@ input {
 
 
 .category-chart {
+  margin-bottom: 1em;
   &>.subtitle {
     margin-bottom: 0.1em !important;
   }
 
   & .bars {
     margin-bottom: 0.5em;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
   }
+
+  & .bar {
+    margin-bottom: 0 !important;
+    margin-right: 5px !important;
+  }
+}
+
+nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.is-flex {
+  align-items: center;
+}
+
+.has-margin {
+  margin: 5px;
 }
