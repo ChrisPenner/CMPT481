@@ -58,15 +58,15 @@ const Statistics = ({
 
   return (
     <div className="column section card is-fullwidth">
-
-      <nav>
+      <nav className="main-nav">
         <a onClick={() => toggleSettings()} className="icon is-medium">
           <i className="fa fa-cog"></i>
         </a>
+        <a onClick={() => toggleAddExpense()} className="icon is-medium is-hidden-tablet">
+          <i className="fa fa-plus"></i>
+        </a>
       </nav>
 
-      <button onClick={() => toggleAddExpense()} className="button is-primary is-hidden-tablet is-fullwidth"> Add Expense </button>
-      <hr className="is-hidden-tablet" />
       <h1 className="title"> Monthly Expenses </h1>
       <hr/>
 

@@ -42,6 +42,7 @@ nav {
   right: 10px;
 }
 
+
 .is-flex {
   align-items: center;
 }
@@ -64,6 +65,20 @@ nav {
   #expense-form.visible {
     opacity: 1;
     left: 0;
+  }
+
+  .main-nav {
+    position: fixed;
+    top: auto;
+    padding: 1em;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: white;
+    border-top: 1px solid #00d1b2;
   }
 }
 
