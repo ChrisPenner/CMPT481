@@ -7,9 +7,9 @@ module.exports = {
   entry: {
     'main': './main',
     'styles': [
+      './node_modules/bulma/css/bulma',
       './client/css/style',
       './client/css/sweetalert',
-      './node_modules/bulma/css/bulma',
     ],
     'vendor': [
       'react',

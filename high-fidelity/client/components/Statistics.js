@@ -4,6 +4,7 @@ import type { State, Categories } from '../types'
 import { connect } from 'react-redux'
 import { getTotalSpent, getTotalSpentFor, getCategories, getBudget } from '../selectors'
 import { toggleSettings, toggleAddExpense } from '../actions'
+import classnames from 'classnames'
 
 type CategoryProps = {
   category: Category,
@@ -13,6 +14,7 @@ type CategoryProps = {
 const Category = ({
   category:{name, color, budget}, totalSpent}: CategoryProps) => {
     const spentPercentage = (budget == 0) ? totalSpent : (totalSpent * 100 / budget)
+    const isOver = budget != 0 && totalSpent > budget
     return (
       <div className='category-chart'>
         <h2 className="subtitle"> {name} </h2>
@@ -24,7 +26,10 @@ const Category = ({
                 background: color,
             }}
           />
-          <h2 className="cost-label subtitle">${totalSpent}{budget == 0 ? null : `/$${budget}`}</h2>
+          <h2 className={classnames("cost-label subtitle", {
+            "error": isOver,
+            "success": !isOver,
+          })}>${totalSpent}{budget == 0 ? null : `/$${budget}`}</h2>
         </div>
       </div>
     )
@@ -73,6 +78,7 @@ const Statistics = ({
       <Category
         totalSpent={totalSpent}
         budget={budget}
+        key="-1"
         category={{
           name:"Overall",
           color: "#00d1b2",

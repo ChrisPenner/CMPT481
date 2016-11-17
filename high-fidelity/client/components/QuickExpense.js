@@ -68,7 +68,16 @@ const QuickExpense = ({categories, addExpense, toggleAddExpense, changeExpenseFo
         className="input" min="1" max="99999" type="number"/>
     </p>
 
-    <div className="is-flex button-bar">
+    <div className="is-flex button-bar is-hidden-mobile">
+      <button
+        disabled={category == ''}
+        onClick={() => addExpense()}
+        className="button is-primary">
+        Add Expense
+      </button>
+    </div>
+
+    <div className="is-flex button-bar is-hidden-tablet">
       <button
         disabled={category == ''}
         onClick={() => addExpense()}
