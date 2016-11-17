@@ -1,4 +1,5 @@
 /* @flow */
+import {successWisp} from 'wisp-react-redux'
 
 import type {
     Category,
@@ -19,6 +20,7 @@ export const addExpense = () => (dispatch:Function, getState:Function) => {
     type: ADD_EXPENSE,
     payload: getExpenseForm(getState()),
   })
+  dispatch(successWisp({title: 'Added!'}))
 }
 
 export const CHANGE_EXPENSE_FORM = 'CHANGE_EXPENSE_FORM'

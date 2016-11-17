@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { Router, Route, IndexRedirect, Link, browserHistory } from 'react-router'
 import { Provider, connect } from 'react-redux'
 import { syncHistoryWithStore } from 'react-router-redux'
+import { Wisps } from 'wisp-react-redux'
 
 import QuickExpense from './components/QuickExpense'
 import Statistics from './components/Statistics'
@@ -28,6 +29,7 @@ const App = connect(stateToProps)
 (({ui:{settings}}: AppProps) => {
   return (
     <div>
+      <Wisps/>
       <section className="section is-fullwidth">
         { settings
           ? <Settings/>
