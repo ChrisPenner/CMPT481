@@ -24,4 +24,5 @@ that time they would want to use this software. The smaller goals that we also
 wanted to evaluate if the user finds the application easy to use. The final
 small goal of the evaluation is to see how quickly the users can input data, we
 found that with other budgeting applications it was not quick to input different
-category data.
+category data. The main focus of our evaluation will be on the continued use of
+our application.
