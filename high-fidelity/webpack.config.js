@@ -7,49 +7,31 @@ module.exports = {
   entry: {
     'main': './main',
     'styles': [
+      './node_modules/bulma/css/bulma',
       './client/css/style',
       './client/css/sweetalert',
-      './node_modules/bulma/css/bulma',
     ],
     'vendor': [
       'react',
       'react-dom',
       'react-redux',
-      'react-router',
-      'react-router-redux',
       'redux',
       'redux-thunk',
-      'xml2js-es6-promise',
       'ramda',
-      'toastr',
-      'humps',
       'jquery',
     ],
   },
   output: {
-    path: path.resolve(__dirname, "server", "static"),
-    publicPath: "/static/",
+    path: path.resolve(__dirname, "public"),
     filename: "[name].[hash].js",
     sourceMapFilename: "[name].[hash].map.js",
   },
   devtool: 'sourceMap',
   devServer: {
-    contentBase: path.resolve(__dirname, 'server', 'static'),
-    publicPath: '/static/',
+    contentBase: path.resolve(__dirname, 'public'),
     historyApiFallback: {
-      index: '/static/index.html'
+      index: '/index.html'
     },
-    proxy: {
-      "/api/*": {
-        target: 'http://localhost:8080',
-      },
-      "/admin/*": {
-        target: 'http://localhost:8080',
-      },
-      "/messages": {
-        target: 'http://localhost:8080',
-      },
-    }
   },
   module: {
     loaders: [
