@@ -35,6 +35,8 @@ const CategorySetting = connect(catSettingStateToProps, catSettingDispatchProps)
         onChange={e => editCategory({id, budget: e.target.value})}
         value={budget}
         className="input"
+        min="1"
+        max="9999"
         type="number"/>
     </div>
     </td>
@@ -70,7 +72,8 @@ const Settings = ({toggleSettings, editBudget, budget, categories} : SettingsPro
 
     <p className="control">
       <label className="label"> Overall Budget </label>
-      <input onChange={e => editBudget(e.target.value)} value={budget} className="input" type="number "/>
+      <input onChange={e => editBudget(e.target.value)} value={budget} className="input" pattern="[0-9]*"
+      />
     </p>
 
     <table className="table is-striped">

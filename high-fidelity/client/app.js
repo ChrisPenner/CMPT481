@@ -40,24 +40,9 @@ const App = connect(stateToProps)
     </div>
   )})
 
-const My404 = () => (
-  <div>
-    404 :'(
-  </div>
-)
-
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={syncHistoryWithStore(browserHistory, store)}>
-      <Route
-        path="/"
-        component={App}
-        >
-      </Route>
-      <Route
-        path="*"
-        component={My404} />
-    </Router>
+    <App/>
   </Provider>,
   document.getElementById('app')
 )

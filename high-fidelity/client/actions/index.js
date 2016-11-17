@@ -6,6 +6,7 @@ import type {
     AddExpense,
     ChangeExpenseForm,
     ToggleSettings,
+    ToggleAddExpense,
     EditCategory,
     EditBudget,
 } from '../types'
@@ -32,6 +33,11 @@ export const changeExpenseForm = (path: string, value:any):ChangeExpenseForm => 
 export const TOGGLE_SETTINGS = 'TOGGLE_SETTINGS'
 export const toggleSettings = (): ToggleSettings => ({
   type: TOGGLE_SETTINGS,
+})
+
+export const TOGGLE_ADD_EXPENSE = 'TOGGLE_ADD_EXPENSE'
+export const toggleAddExpense = (): ToggleAddExpense => ({
+  type: TOGGLE_ADD_EXPENSE,
 })
 
 export const EDIT_CATEGORY = 'EDIT_CATEGORY'

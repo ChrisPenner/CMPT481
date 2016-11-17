@@ -3,7 +3,7 @@
 import type { State, Categories } from '../types'
 import { connect } from 'react-redux'
 import { getTotalSpent, getTotalSpentFor, getCategories, getBudget } from '../selectors'
-import { toggleSettings } from '../actions'
+import { toggleSettings, toggleAddExpense } from '../actions'
 
 type CategoryProps = {
   category: Category,
@@ -39,24 +39,25 @@ const stateToProps = (state: State) => ({
 
 const dispatchProps = {
   toggleSettings,
+  toggleAddExpense,
 }
 
 type StatisticsProps = {
   totalSpentFor: Function,
   toggleSettings: Function,
+  toggleAddExpense: Function,
   totalSpent: number,
   categories: Categories,
   budget: number,
 }
 
 const Statistics = ({
-  totalSpentFor, toggleSettings, totalSpent,
+  totalSpentFor, toggleSettings, toggleAddExpense, totalSpent,
   categories, budget,
 }: StatisticsProps) => {
 
   return (
     <div className="column section card is-fullwidth">
-      <button className="button is-primary is-hidden-tablet is-fullwidth"> Add Expense </button>
 
       <nav>
         <a onClick={() => toggleSettings()} className="icon is-medium">
@@ -64,6 +65,7 @@ const Statistics = ({
         </a>
       </nav>
 
+      <button onClick={() => toggleAddExpense()} className="button is-primary is-hidden-tablet is-fullwidth"> Add Expense </button>
       <hr className="is-hidden-tablet" />
       <h1 className="title"> Monthly Expenses </h1>
       <hr/>

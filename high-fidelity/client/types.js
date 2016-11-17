@@ -20,7 +20,8 @@ export type ExpenseForm = {
 }
 
 export type Ui = {
-  settings: boolean
+  settings: boolean,
+  addExpense: boolean,
 }
 
 export type AddExpense = {
@@ -39,6 +40,11 @@ export type ChangeExpenseForm = {
 export type ToggleSettings = {
   type: 'TOGGLE_SETTINGS',
 }
+
+export type ToggleAddExpense = {
+  type: 'TOGGLE_ADD_EXPENSE',
+}
+
 
 export type EditCategory = {
   type: 'EDIT_CATEGORY',
