@@ -6,7 +6,7 @@ import {TOGGLE_SETTINGS} from '../actions'
 import type {Ui, Action} from '../types'
 
 const initialState = {
-  settings: true,
+  settings: false,
 }
 const expensesReducer = (state:Ui=initialState, action:Action) => {
   switch (action.type) {

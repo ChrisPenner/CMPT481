@@ -6,6 +6,7 @@ import expensesReducer from './expenses'
 import expenseFormReducer from './expenseForm'
 import categoriesReducer from './categories'
 import uiReducer from './ui'
+import budgetReducer from './budget'
 
 export default combineReducers({
   routing: routerReducer,
@@ -13,4 +14,5 @@ export default combineReducers({
   expenseForm: expenseFormReducer,
   categories: categoriesReducer,
   ui: uiReducer,
+  budget: budgetReducer,
 })
