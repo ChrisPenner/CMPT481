@@ -1,0 +1,16 @@
+We chose to use a use html, css and react/redux to implement our prototype.
+There was a few reasons that we chose to use these technologies to implement our
+medium-fidelity. As a group we were comfortable with html/css, since our
+application is web based it made sense to implement it this way. This allowed us
+also to play around with colours and themes for the application more easily. It
+was very important to us that the interface looked good and html/css allows us
+to do this.
+
+For our prototype we chose to implement it vertically. The functionality that we
+implemented in our prototype is the ability to add expenses to different
+category's, set different limits and names for each of the categories and
+graphical representation of the spending. Using the mixture of html/css and
+react/redux allowed us to easily implement all these features to the extend
+that we needed to make the application feel like it is fully functional. When it
+comes to evaluating the users should not really be able to tell the application
+is just a prototype.

@@ -1,1 +1,28 @@
 Goals for the evaluation
+Substantial goal:
+-continued use of the application
+
+smaller goals:
+-easy to use
+-quick to input data
+
+
+writeup:
+goals:
+- continued use of the application
+- ability to quickly enter spending 
+- easily pick a category to add the spending too, and see how much has been
+spent in this category
+- easily track overall spending over a period of time
+- visualization of the data makes sense and is appealing
+
+
+
+The main usability challenge that we want to meet is the continued use of our
+application, we will evaluate the users experience in the interview to see if at
+that time they would want to use this software. The smaller goals that we also
+wanted to evaluate if the user finds the application easy to use. The final
+small goal of the evaluation is to see how quickly the users can input data, we
+found that with other budgeting applications it was not quick to input different
+category data. The main focus of our evaluation will be on the continued use of
+our application.
