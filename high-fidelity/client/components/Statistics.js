@@ -1,10 +1,10 @@
 /* @flow */
 
-import type { State, Categories } from '../types'
 import { connect } from 'react-redux'
-import { getTotalSpent, getTotalSpentFor, getCategories, getBudget } from '../selectors'
-import { toggleSettings, toggleAddExpense } from '../actions'
 import classnames from 'classnames'
+
+import type { State, Categories } from '../types'
+import { getTotalSpent, getTotalSpentFor, getCategories, getBudget } from '../selectors'
 
 type CategoryProps = {
   category: Category,
@@ -13,7 +13,7 @@ type CategoryProps = {
 
 const Category = ({
   category:{name, color, budget}, totalSpent}: CategoryProps) => {
-    const spentPercentage = (budget == 0) ? totalSpent : (totalSpent * 100 / budget)
+    const spentPercentage = (budget == 0) ? totalSpent : (100 * totalSpent / budget)
     const isOver = budget != 0 && totalSpent > budget
     return (
       <div className='category-chart'>
@@ -22,7 +22,7 @@ const Category = ({
           <div
             className="bar notification"
             style={{
-              width: `${spentPercentage}%`,
+                width: `${spentPercentage}%`,
                 background: color,
             }}
           />
@@ -42,37 +42,25 @@ const stateToProps = (state: State) => ({
   budget: getBudget(state),
 })
 
-const dispatchProps = {
-  toggleSettings,
-  toggleAddExpense,
-}
+const dispatchProps = {}
 
 type StatisticsProps = {
   totalSpentFor: Function,
-  toggleSettings: Function,
-  toggleAddExpense: Function,
   totalSpent: number,
   categories: Categories,
   budget: number,
+  timeframe: string,
 }
 
 const Statistics = ({
-  totalSpentFor, toggleSettings, toggleAddExpense, totalSpent,
+  totalSpentFor, totalSpent,
   categories, budget,
+  timeframe,
 }: StatisticsProps) => {
 
   return (
-    <div className="column section card is-fullwidth">
-      <nav className="main-nav">
-        <a onClick={() => toggleSettings()} className="icon is-medium">
-          <i className="fa fa-cog"></i>
-        </a>
-        <a onClick={() => toggleAddExpense()} className="icon is-medium is-hidden-tablet">
-          <i className="fa fa-plus"></i>
-        </a>
-      </nav>
-
-      <h1 className="title"> Monthly Expenses </h1>
+    <div style={{float: 'left', position: 'relative'}}>
+      <h1 className="title"> {timeframe} Expenses </h1>
       <hr/>
 
       <Category

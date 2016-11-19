@@ -3209,6 +3209,12 @@ react-router@2.5.2:
     loose-envify "^1.2.0"
     warning "^2.1.0"
 
+react-swipe:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/react-swipe/-/react-swipe-5.0.5.tgz#a1be51629cd24c8bb5e75eb4b08a16eb7e04c451"
+  dependencies:
+    swipe-js-iso "^2.0.3"
+
 react@15.3.1:
   version "15.3.1"
   resolved "https://registry.yarnpkg.com/react/-/react-15.3.1.tgz#f78501ed8c2ec6e6e31c3223652e97f1369d2bd6"
@@ -3743,6 +3749,10 @@ sweetalert@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/sweetalert/-/sweetalert-1.1.3.tgz#d2c31ea492b22b6a8d887aea15989a238fc084ae"
 
+swipe-js-iso, swipe-js-iso@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/swipe-js-iso/-/swipe-js-iso-2.0.3.tgz#76892ca4fc2928f384ac042739a25f7afe6fcf74"
+
 symbol-observable@^0.2.3:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-0.2.4.tgz#95a83db26186d6af7e7a18dbd9760a2f86d08f40"
@@ -3922,7 +3932,7 @@ utils-merge@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.0.tgz#0294fb922bb9375153541c4f7096231f287c8af8"
 
-uuid@^2.0.2:
+uuid@^2.0.2, uuid@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz#67e2e863797215530dff318e5bf9dcebfd47b21a"
 
@@ -4071,9 +4081,11 @@ window-size@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
 
-wisp-react-redux:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/wisp-react-redux/-/wisp-react-redux-0.1.3.tgz#c915734572f425c5300b9ca63aaa75c27ec40867"
+wisp-react-redux@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/wisp-react-redux/-/wisp-react-redux-0.1.4.tgz#dd4eb402a705419238c7aa5cd29c88431d30b0ae"
+  dependencies:
+    uuid "^2.0.3"
 
 wordwrap@~0.0.2:
   version "0.0.3"

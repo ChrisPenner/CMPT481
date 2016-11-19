@@ -15,7 +15,7 @@ input {
   margin-bottom: 1em;
 
   .cost-label {
-    min-width: 100px;
+    min-width: 5em;
   }
 
   &>.subtitle {
@@ -30,6 +30,7 @@ input {
   }
 
   .bar {
+    padding: 0;
     margin-bottom: 0 !important;
     margin-right: 5px !important;
     border: 1px solid #333;
@@ -38,10 +39,9 @@ input {
 
 nav {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 40px;
+  right: 30px;
 }
-
 
 .is-flex {
   align-items: center;
@@ -70,9 +70,9 @@ nav {
   .main-nav {
     position: fixed;
     top: auto;
-    padding: 1em;
-    bottom: 0px;
     left: 0;
+    bottom: 0px;
+    padding: 1em;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -93,4 +93,30 @@ nav {
 
 .success {
   color: green !important;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-left, .carousel-right {
+  position: absolute;
+  top: calc(50% - 1em);
+  height: 100%;
+  width: 30px;
+  display: block;
+  opacity: 0.3;
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.carousel-right {
+  right: 0px;
+}
+
+.carousel-left {
+  left: 0px;
 }

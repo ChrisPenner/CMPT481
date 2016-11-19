@@ -1,19 +1,17 @@
 /* @flow */
 import ReactDOM from 'react-dom'
-import { Router, Route, IndexRedirect, Link, browserHistory } from 'react-router'
 import { Provider, connect } from 'react-redux'
-import { syncHistoryWithStore } from 'react-router-redux'
 import { Wisps } from 'wisp-react-redux'
 
 import QuickExpense from './components/QuickExpense'
 import Statistics from './components/Statistics'
 import Settings from './components/Settings'
+import Nav from './components/Nav'
+import Carousel from './components/Carousel'
 import store from './store'
 import { getUi } from './selectors'
 
 import type { State, Ui } from './types'
-
-import * as Routes from './routes'
 
 type appArgs = {}
 
@@ -35,7 +33,12 @@ const App = connect(stateToProps)
           ? <Settings/>
             : <div className="columns">
             <QuickExpense/>
-            <Statistics/>
+            <Carousel>
+              <Statistics timeframe="Weekly" />
+              <Statistics timeframe="Monthly" />
+              <Statistics timeframe="Yearly" />
+            </Carousel>
+            <Nav/>
           </div>
           }
       </section>

@@ -2,7 +2,7 @@
 app/secrets.py*
 node_modules/
 /dist/
-/high-fidelity/server/static/
+/high-fidelity/public
 npm-debug.log
 /.tmp/
 
