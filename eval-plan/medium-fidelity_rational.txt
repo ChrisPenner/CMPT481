@@ -1,0 +1,5 @@
+We chose to use a use html, css and react/redux to implement our prototype.
+There was a few reasons that we chose to use these technologies to implement our
+medium-fidelity. As a group we were comfortable with html/css, since our
+application is web based it made sense to implement it this way. This allowed us
+also to play around with colours and themes for the application more easily.

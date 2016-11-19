@@ -23,3 +23,9 @@ In contrast we will not implement the following tasks functionality:
 	
 (3) The appearance for our prototype is important as one of our goals is to make sure that the user has a positive experience using our application by a fast and accurate 
 use. It is believed that for our app to attain this then it must appear to be clean, and minimal. 
+
+(4) We do not have any physical elements to our project
+
+(5)We chose to use HTML and CSS along with react and redux to implement our
+medium fidelity prototype.(This is basically the Prototype rational portion of
+the report)
