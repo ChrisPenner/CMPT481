@@ -1,37 +1,80 @@
-STEP 2
-A. 
-We will make use of interviewing the test users to evaluate our project goals. 
+---
+Goals of Evaluation (Section Header)
+---
+
+For our project the primary goal is to have a user want to continuously use the application
+to track their expenses for the week/month/year. It is our belief that if the user is able 
+to navigate the application intuitively and it is behaving as expected then the application 
+is easy to use. If the application is easy to use then it can be said that the user will 
+also be able to input expenses quickly and efficiently since they can intuitvely navigate 
+to that screen. Once the user has inputted expenses if the user can quickly tell us how much
+they have said they spent in a specific category accurately without hesitation then it can be
+said that the application's visualization of data is clear and appealing. However, the 
+continued use of the application is not testable within the scope of this class since that
+would include multiple interviews with the test users to evaluate their usage and it would 
+require a high-fidelity prototype. 
+
+
+Goals (Subsection Header)
+---
+
+For our goals we have ranked importance by the use of numerical values, and we
+have ranked our ability to test them within the scope by the use of alphabetical
+values. 
+
+Goals:
+1. Continued use of the application (D)
+2. Navigation of the application is easy (B)
+3. Visualization of data is clear and appealing (C)
+4. Ability to quickly and accurately input expenses (A)
 
 
 
-B.
-For our evaluation Birkenstocks and Socks will be using a mixture of 5 friends/family members to be
-our test cases for our 481 project. 
 
-Interviewees:
+---
+Rationale for Type of Evaluation (Section Header)
+---
+
+We will make use of interviews to evaluate our goals. By doing this we are creating that 
+relationship with the user in attempts to determine what it is that they need to make their 
+budgeting experience with our app the most enjoyable. 
+
+
+
+
+---
+Participant Pool (Section Header)
+---
+
+We are using a mix of family/friends for our test cases. 
+
 Lauren - An individual who has limited experience with computers. 
 Mitchell - A business student who has studied budgeting. 
 Adam - An individual who has a degree in computer science and may offer some valuable criticisms. 
-One of Jonathan's Parents - Older demographic who may have budgeted using other methods in the past. 
-?? - ??? 
+One of Jonathan's Parents - Older demographic who may have budgeted using other methods in the past.
 
 
 
-C: Plan The Evaluation.
-Preface: 
+
+---
+Overview of Interview Protocol (Section Header)
+---
+
 We have set out a guideline of questions/topics we would like to cover with each of the users but 
 we are not limited to only asking what is below. We can choose to not ask a specific question if we
 believe that the user has provided sufficient information for the question at any point during the
 interview. In the event that we choose to not ask a question we will be required to support our 
 reasoning whether it be due to the fact that the conversation flowed in other directions.
 
+While the users are testing the application we will watch how quickly and accurately they are able to fufill the 
+tasks. If they appear to be moving slowly or talking to themselves during this process we will ask them
+to elaborate their thought process immediately.
+
 We will analyze our data by taking notes during the user's demo and interview. 
 The length of the evaluation is not anticipated to exceed 45 minutes, it will greatly depend on the
 quality of answers from the user. Where the quality of the session will evaluated based on if their
 answers provide lots of detail and information. If the users have much to say then it will be on 
 the longer end, similarly if the user has difficulty navigating the system. 
-
-
 
 
 Tasks we get the users to perform
@@ -50,29 +93,18 @@ questions:
 		(No - Probing Question) Is there a specific reason why?
 	
 First we will get the users to perform these tasks on a laptop/desktop browser. 
-While they are doing this we will watch how quickly and accurately they are able to fufill the 
-tasks. 
-If they appear to be moving slowly or talking to themselves during this process we will ask them
-to elaborate their thought process immediately. After they're finished the tasks ask:
 	Was there anything thing that you found counter intuitive?
 	If you could change/add things about the app, what would it be? (From desktop perspective)
 
 We will then proceed to get the users to perform these tasks on a mobile device of their 
 preference.
-While they are doing this we will watch how quickly and accurately they are able to fufill the 
-tasks. 
-If they appear to be moving slowly or talking to themselves during this process we will ask them 
-to elaborate their thought process immediately. After they're finished the tasks ask:
 	Was there anything thing that you found counter intuitive?
 	If you could change/add things about the app, what would it be? (From mobile perspective)
-
-
 
 We will also ask:
 How did you find the mobile interface versus the desktop interface?
 	(Probing Question) Which was easiest to use?
 	(Probing Question) For you what made the data more visually clear for you?
-
 	
 (If they have budgeted before) Have you tried using other budgeting apps before, how did ours compare?
 	(Yes - Probing Question) What app allowed you fast input?
