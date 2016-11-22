@@ -52,6 +52,11 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
+
+.carousel {
+  width: 100%;
+}
+
   #expense-form  {
     position: absolute;
     left: -100%;
@@ -97,6 +102,10 @@ nav {
 
 .carousel {
   position: relative;
+
+  .react-swipe-container {
+    padding: 1em;
+  }
 }
 
 .carousel-left, .carousel-right {
@@ -119,4 +128,13 @@ nav {
 
 .carousel-left {
   left: 0px;
+}
+
+#casha {
+  padding-bottom: 0.25em;
+  font-size: 3.5em;
+}
+
+#main {
+  height: 100vh;
 }

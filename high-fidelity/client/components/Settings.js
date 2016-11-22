@@ -62,16 +62,10 @@ type SettingsProps = {
 
 const Settings = ({toggleSettings, editBudget, budget, categories} : SettingsProps) => (
   <div className="settings section card is-fullwidth">
-    <nav>
-      <a onClick={() => toggleSettings()} className="icon is-medium">
-        <i className="fa fa-close"></i>
-      </a>
-    </nav>
-
     <h1 className="title">Settings</h1>
 
     <p className="control">
-      <label className="label"> Overall Budget </label>
+      <label className="label"> Overall Weekly Budget </label>
       <input onChange={e => editBudget(e.target.value)} value={budget} className="input" pattern="[0-9]*"
       />
     </p>
@@ -82,7 +76,6 @@ const Settings = ({toggleSettings, editBudget, budget, categories} : SettingsPro
           <th> Category </th>
           <th> Budget </th>
         </tr>
-
         {
           categories.map((category, i) => <CategorySetting {...category} key={i} />
           )
@@ -90,7 +83,9 @@ const Settings = ({toggleSettings, editBudget, budget, categories} : SettingsPro
       </tbody>
     </table>
 
-
+    <button onClick={() => toggleSettings()} className="is-fullwidth is-primary button">
+      Save
+    </button>
   </div>
 )
 

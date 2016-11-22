@@ -3,6 +3,8 @@
 import { connect } from 'react-redux'
 import classnames from 'classnames'
 
+import R from 'ramda'
+
 import type { State, Categories } from '../types'
 import { getTotalSpent, getTotalSpentFor, getCategories, getBudget } from '../selectors'
 
@@ -58,6 +60,16 @@ const Statistics = ({
   timeframe,
 }: StatisticsProps) => {
 
+  let multiplier = 1;
+  switch (timeframe) {
+    case 'Monthly':
+      multiplier = 4
+      break
+    case 'Yearly':
+      multiplier =  52
+      break
+  }
+
   return (
     <div style={{float: 'left', position: 'relative'}}>
       <h1 className="title"> {timeframe} Expenses </h1>
@@ -70,18 +82,20 @@ const Statistics = ({
         category={{
           name:"Overall",
           color: "#00d1b2",
-          budget,
+          budget: budget * multiplier,
         }}/>
 
       <hr/>
 
       {
-        categories.map(category => (
-          <Category
-            key={category.id}
-            totalSpent={totalSpentFor(category.name)}
-            category={category}/>
-        ))
+        categories.map(category => {
+          const scaledCat = R.assoc('budget', category.budget * multiplier, category)
+          return (
+            <Category
+              key={category.id}
+              totalSpent={totalSpentFor(category.name)}
+              category={scaledCat}/>
+          )})
       }
       </div>
 )}

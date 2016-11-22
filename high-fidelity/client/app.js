@@ -27,8 +27,9 @@ const App = connect(stateToProps)
 (({ui:{settings}}: AppProps) => {
   return (
     <div>
+      <section id="main" className="section is-fullwidth">
       <Wisps/>
-      <section className="section is-fullwidth">
+      <h1 className="title" id="casha"> ca$ha </h1>
         { settings
           ? <Settings/>
             : <div className="columns">

@@ -31,6 +31,12 @@ const initialState = [
     budget: 0,
     color: '#ff3860',
   },
+  {
+    id: 4,
+    name: 'Miscellaneous',
+    budget: 0,
+    color: '#ff38b4',
+  },
 ]
 
 const expensesReducer = (state:Categories=initialState, action:Action) => {

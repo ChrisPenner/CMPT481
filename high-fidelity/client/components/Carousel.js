@@ -19,7 +19,7 @@ export default class Carousel extends Component {
   render() {
     return (
       <div className="carousel column section card">
-        <ReactSwipe ref="reactSwipe"  swipeOptions={{continuous: false}}>
+        <ReactSwipe ref="reactSwipe">
           {this.props.children}
         </ReactSwipe>
         <a onClick={() => this.prev()} className="icon is-medium carousel-left">
