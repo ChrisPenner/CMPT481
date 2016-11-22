@@ -1,20 +1,25 @@
 Goals for the evaluation
-Substantial goal:
+Primary goal:
 -continued use of the application
 
-smaller goals:
+Supporting goals:
 -easy to use
 -quick to input data
 
 
 writeup:
+For our goals we will rank for importance by the use of numerical values, and we
+will rank our ability to test them within the scope by the use of alphabetical
+values. 
+
 goals:
-- continued use of the application
-- ability to quickly enter spending 
-- easily pick a category to add the spending too, and see how much has been
-spent in this category
-- easily track overall spending over a period of time
-- visualization of the data makes sense and is appealing
+1. continued use of the application (D)
+2. navigation of the application is easy (B)
+3. visualization of data is clear and appealing (C)
+4. ability to quickly and accurately input expenses (A)
+
+
+
 
 
 
@@ -26,3 +31,16 @@ small goal of the evaluation is to see how quickly the users can input data, we
 found that with other budgeting applications it was not quick to input different
 category data. The main focus of our evaluation will be on the continued use of
 our application.
+
+
+For our project the primary goal is to have a user want to continuously use the application
+to track their expenses for the week/month/year. It is our belief that if the user is able 
+to navigate the application intuitively and it is behaving as expected then the application 
+is easy to use. If the application is easy to use then it can be said that the user will 
+also be able to input expenses quickly and efficiently since they can intuitvely navigate 
+to that screen. Once the user has inputted expenses if the user can quickly tell us how much
+they have said they spent in a specific category accurately without hesitation then it can be
+said that the application's visualization of data is clear and appealing. However, the 
+continued use of the application is not testable within the scope of this class since that
+would include multiple interviews with the test users to evaluate their usage and it would 
+require a high-fidelity prototype. 

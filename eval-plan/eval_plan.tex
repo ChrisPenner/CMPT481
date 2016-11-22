@@ -1,0 +1,171 @@
+\documentclass{chi2011}
+\usepackage{times}
+% \usepackage{url}
+\usepackage{graphics}
+\usepackage{color}
+\usepackage[pdftex]{hyperref}
+\hypersetup{%
+pdftitle={Your Title},
+pdfauthor={Your Authors},
+pdfkeywords={your keywords},
+bookmarksnumbered,
+pdfstartview={FitH},
+colorlinks,
+citecolor=black,
+filecolor=black,
+linkcolor=black,
+urlcolor=black,
+breaklinks=true,
+}
+\newcommand{\comment}[1]{}
+\definecolor{Orange}{rgb}{1,0.5,0}
+\newcommand{\todo}[1]{\textsf{\textbf{\textcolor{Orange}{[[#1]]}}}}
+
+\pagenumbering{arabic}  % Arabic page numbers for submission.  Remove this line to eliminate page numbers for the camera ready copy
+
+\begin{document}
+% To make various LaTeX processors do the right thing with page size.
+\special{papersize=8.5in,11in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\pdfpageheight}{\paperheight}
+\setlength{\pdfpagewidth}{\paperwidth}
+
+% Use this command to override the default ACM copyright statement
+% (e.g. for preprints). Remove for camera ready copy.
+% \toappear{Submitted for review to CHI 2011.}
+
+\title{CMPT481 Medium-Fidelity Report}
+\numberofauthors{3}
+\author{
+\alignauthor Peggy Anderson\\
+    \email{peggy.anderson@usask.ca}
+    \alignauthor Chris Penner\\
+    \email{clp848@mail.usask.ca}
+    \alignauthor Jonathan Baxter\\
+    \email{jab231@mail.usask.ca}
+}
+
+\maketitle
+
+\section{Goals of Evaluation}
+
+For our project the primary goal is to have a user want to continuously use the application
+to track their expenses for the week/month/year. It is our belief that if the user is able 
+to navigate the application intuitively and it is behaving as expected then the application 
+is easy to use. If the application is easy to use then it can be said that the user will 
+also be able to input expenses quickly and efficiently since they can intuitvely navigate 
+to that screen. Once the user has inputted expenses if the user can quickly tell us how much
+they have said they spent in a specific category accurately without hesitation then it can be
+said that the application's visualization of data is clear and appealing. However, the 
+continued use of the application is not testable within the scope of this class since that
+would include multiple interviews with the test users to evaluate their usage and it would 
+require a high-fidelity prototype. 
+	\subsection{Goals}
+	For our goals we have ranked importance by the use of numerical values, and we
+	have ranked our ability to test them within the scope by the use of alphabetical
+	values. 
+	\begin{enumerate}
+	\item Continued use of the application (D)
+	\item Navigation of the application is easy (B)
+	\item Visualization of data is clear and appealing (C)
+	\item Ability to quickly and accurately input expenses (A)
+	\end{enumerate}
+
+
+\section{Rational for Type of Evaluation}
+We will make use of interviews to evaluate our goals. By doing this we are creating that 
+relationship with the user in attempts to determine what it is that they need to make their 
+budgeting experience with our app the most enjoyable. 
+
+\section{Participant Pool}
+We are using a mix of family/friends for our test cases. 
+\begin{itemize}
+	\item Lauren - An individual who has limited experience with computers. 
+	\item Mitchell - A business student who has studied budgeting. 
+	\item Adam - An individual who has a degree in computer science and may offer some valuable criticisms. 
+	\item One of Jonathan's Parents - Older demographic who may have budgeted using other methods in the past.
+\end{itemize}
+
+\section{Overview of Interview Protocol}
+We have set out a guideline of questions/topics we would like to cover with each of the users but 
+we are not limited to only asking what is below. We can choose to not ask a specific question if we
+believe that the user has provided sufficient information for the question at any point during the
+interview. In the event that we choose to not ask a question we will be required to support our 
+reasoning whether it be due to the fact that the conversation flowed in other directions.
+
+While the users are testing the application we will watch how quickly and accurately they are able to fufill the 
+tasks. If they appear to be moving slowly or talking to themselves during this process we will ask them
+to elaborate their thought process immediately.
+
+We will analyze our data by taking notes during the user's demo and interview. 
+The length of the evaluation is not anticipated to exceed 45 minutes, it will greatly depend on the
+quality of answers from the user. Where the quality of the session will evaluated based on if their
+answers provide lots of detail and information. If the users have much to say then it will be on 
+the longer end, similarly if the user has difficulty navigating the system. 
+	\subsection{Tasks we get the users to perform}
+	\begin{itemize}
+		\item adding different expenses to two or three different categories
+		\item after adding expenses, (go to screen) for data visualization
+		\item  changing the name of a category
+		\item  changing the overall budget limit (it will originally be set to 200\$)
+		\item  change one category limit
+		\item  add more expenses to that category and get it to go over the budget limit
+	\end{itemize}
+	\subsection{Interview Questions}
+	Before the user performs the aforementioned tasks we will sit down with them and ask the following 
+	questions:\\
+	Do you currently or have you ever budget(ed)?
+			\begin{itemize}
+				\item (Yes - Probing Question) What method do you use?
+				\item (No - Probing Question) Is there a specific reason why?
+			\end{itemize}
+	First we will get the users to perform these tasks on a laptop/desktop browser. 
+	\begin{itemize}
+		\item Was there anything thing that you found counter intuitive?
+		\item If you could change/add things about the app, what would it be? (From desktop perspective)
+	\end{itemize}
+	We will then proceed to get the users to perform these tasks on a mobile device of their 
+	preference.
+	\begin{itemize}
+		\item Was there anything thing that you found counter intuitive?
+		\item If you could change/add things about the app, what would it be? (From mobile perspective)
+	\end{itemize}
+	We will also ask:
+	How did you find the mobile interface versus the desktop interface?
+	\begin{itemize}
+		\item (Probing Question) Which was easiest to use?
+		\item (Probing Question) For you what made the data more visually clear for you?
+	\end{itemize}
+		
+	(If they have budgeted before) Have you tried using other budgeting apps before, how did ours compare?
+	\begin{itemize}
+	\item (Yes - Probing Question) What app allowed you fast input?
+	\item (Yes - Probing Question) What app allowed more accurate input?
+	\item (Yes - Probing Question) Are you more likely to continue using ours or the other one?
+	\item (No to last question - Probing Question) Why?
+	\end{itemize}
+	(Probing Question) After testing this app, would you be likely to continue using it consistently? 
+
+	\section{Prototype Rational}
+
+	To build our Medium-Fidelity Prototype we decided to use a mixture of
+	html,css and the react/redux. Since our application is a web based
+	application we decided that this would allow us to evaluate our prototype on
+	both a desktop and a mobile platform. Using html/css allowed us to try
+	different fonts, colours and themes so that we could get our application to
+	look the way that we wanted it to. Using react we were able to adjust the
+	look of the application depending on the platform it's being used on.
+
+	Using react/redux javascript library let us automate the "Wizard of Oz"
+	aspect of our application. Using the javascript we were able to animate the
+	actions that a user would use and give the appearance that our application is
+	fully functioning. We don't store any of the input data this is all done
+	with local storage in the browser. The Medium-Fidelity prototype will let
+	us easily evaluate our application with minimum interaction from the
+	evaluator. 
+
+\bibliographystyle{acm-sigchi}
+\bibliography{sample}
+
+\end{document}
