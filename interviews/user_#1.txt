@@ -1,0 +1,69 @@
+
+Before the user performs the aforementioned tasks we will sit down with them and ask the following 
+questions:
+	Do you currently or have you ever budget(ed)?
+	yes, using pen and paper. Currently budget using this method. 
+		(Yes - Probing Question) What method do you use?
+		(No - Probing Question) Is there a specific reason why?
+	
+Tasks we get the users to perform
+	~ adding different expenses to two or three different categories
+		-Tried to click on the expense graph to add an expense
+		-Made an error of adding an expense to the housing cat. forgot to change
+		 from the food cat.
+		- found it easy to see the overage
+
+	~ after adding expenses, (go to screen) for data visualization
+	~ changing the name of a category
+		- Did not recognise the setting button!
+		- had no problems adding the new cat. name
+	~ changing the overall budget limit (it will originally be set to 200$)
+		- once the settings screen was known no problem with this
+	~ change one category limit
+		- was confused on where to find this but once found it was easy to do
+	~ add more expenses to that category and get it to go over the budget limit
+	- overall found it intutive, she didn't know what the settings button was!
+
+
+First we will get the users to perform these tasks on a laptop/desktop browser. 
+While they are doing this we will watch how quickly and accurately they are able to fufill the 
+tasks. 
+If they appear to be moving slowly or talking to themselves during this process we will ask them
+to elaborate their thought process immediately. After they're finished the tasks ask:
+	Was there anything thing that you found counter intuitive?
+	 - found the setting button confusing
+	 - graphs were easy to read and understand when went over
+	If you could change/add things about the app, what would it be? (From desktop perspective)
+		- would like to be able to adjust if an ammount is entered wrong
+
+We will then proceed to get the users to perform these tasks on a mobile device of their 
+preference.
+While they are doing this we will watch how quickly and accurately they are able to fufill the 
+tasks. 
+If they appear to be moving slowly or talking to themselves during this process we will ask them 
+to elaborate their thought process immediately. After they're finished the tasks ask:
+	Was there anything thing that you found counter intuitive?
+	If you could change/add things about the app, what would it be? (From mobile perspective)
+
+-took a little while to find the plus on the mobile app
+-with the experience on the desktop application was much faster on the mobile
+
+
+We will also ask:
+How did you find the mobile interface versus the desktop interface?
+	- easier on mobile, because the carry over from the desktop experience
+	(Probing Question) Which was easiest to use?
+	(Probing Question) For you what made the data more visually clear for you?
+	- easier to read graphs on mobile
+
+	
+(If they have budgeted before) Have you tried using other budgeting apps before, how did ours compare?
+	- Never used a budgetting app before not much of a tech. person
+	(Yes - Probing Question) What app allowed you fast input?
+	(Yes - Probing Question) What app allowed more accurate input?
+	(Yes - Probing Question) Are you more likely to continue using ours or the other one?
+	(No - Probing Question) Why?
+	- Not available when she used to budget
+		(Probing Question) After testing this app, would you be likely to continue using it consistently? 
+	- yes i would contiue using it because it is easier and neater then using
+	  pen and paper

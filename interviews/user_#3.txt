@@ -1,0 +1,63 @@
+Tasks we get the users to perform
+	~ adding different expenses to two or three different categories
+	~ after adding expenses, (go to screen) for data visualization
+	~ changing the name of a category
+	~ changing the overall budget limit (it will originally be set to 200$)
+	~ change one category limit
+	~ add more expenses to that category and get it to go over the budget limit
+	
+
+Before the user performs the aforementioned tasks we will sit down with them and ask the following 
+questions:
+	Do you currently or have you ever budget(ed)?
+		- Yes, used paper to buget. Why did you use this method? It was easy and
+		  just writting down predicted spending
+		(Yes - Probing Question) What method do you use?
+		(No - Probing Question) Is there a specific reason why?
+	
+First we will get the users to perform these tasks on a laptop/desktop browser. 
+	Was there anything thing that you found counter intuitive?
+	-I dont like that it was weekly, couldn't find the monthly version. Tends to
+	 buget on a monthly basis. Can you specify what it was on? no we can't do
+     that.
+	- might be better to set the monthly as default
+	- wished that she would could go to a different page then come back and the
+	data would stay(we have no server connected)
+	If you could change/add things about the app, what would it be? (From desktop perspective)
+	- Wants to customize the colours, More categories would be nice. 
+
+We will then proceed to get the users to perform these tasks on a mobile device of their 
+preference.
+	Was there anything thing that you found counter intuitive?
+	- I don't like have to press the plus compared to the desktop but this is
+because i had to use the desktop first. 
+	If you could change/add things about the app, what would it be? (From mobile perspective)
+	- fix formatting to fit better, similar wants to desktop! more features
+
+We will also ask:
+How did you find the mobile interface versus the desktop interface?
+	-once i got used to mobile it was as good as desktop, more of a learning
+	 curve though
+	(Probing Question) Which was easiest to use?
+	- found the desktop version easier to use because it was used first
+	(Probing Question) For you what made the data more visually clear for you?
+	- easier to see expenses on mobile
+	
+(If they have budgeted before) Have you tried using other budgeting apps before, how did ours compare?
+	-easier to use then the paper method done before
+	(Yes - Probing Question) What app allowed you fast input?
+	-could easily and quickly input data
+	(Yes - Probing Question) What app allowed more accurate input?
+	- about the same to input the data
+	(Yes - Probing Question) Are you more likely to continue using ours or the other one?
+	Yes i would want to use it because it gives a better idea of spending, would
+prefer to use this then the past methods
+	(No - Probing Question) Why?
+		(Probing Question) After testing this app, would you be likely to continue using it consistently? 
+		Would want to keep using because it was quicker and easier to do then
+		using paper
+
+NOTES:
+-seemed to be able to quickly and easily add expenses
+-found it straight forward and easy to use and the interface went with the given
+intuition 
