@@ -12,14 +12,14 @@ Tasks we get the users to perform
 
 Pre Demo:
 	1. Do you currently or have you ever budget(ed)?
-		Yes. Right now User #4 doesn't budget actively but they do use Mint.com to make sure old
+		Yes. Right now User #2 doesn't budget actively but they do use Mint.com to make sure old
 		accounts don't have stuff on them and go through current accounts to ensure there are no
 		unknown purchases. 
 		
-		In the past they used spreadsheets for projecting, and sometimes User #4 still uses this
+		In the past they used spreadsheets for projecting, and sometimes User #2 still uses this
 		method for their savings and for bigger purchases. 
 		
-		User #4 says that they have a facade for budgeting. "Mint.com sucks for things that run over
+		User #2 says that they have a facade for budgeting. "Mint.com sucks for things that run over
 		multiple months."
 
 	
@@ -30,7 +30,7 @@ Desktop Demo:
 		~ Added negative numbers
 		~ Found out he could input 'e' (didn't do anything except clear any numbers previously 
 		  typed)
-			~ When asked why the letter User #4 answered "only because I was allowed to"
+			~ When asked why the letter User #2 answered "only because I was allowed to"
 	2. Go to monthly view
 		~ Highlighted "Weekly View"
 		~ Went into Settings
@@ -45,7 +45,7 @@ Desktop Demo:
 		
 Post Desktop Demo Interview:
 	1. Was there anything thing that you found counter intuitive?
-		~ Switching between views, the arrows on side made User #4 thing that it would go to a 
+		~ Switching between views, the arrows on side made User #2 thing that it would go to a 
 		  history. "Although the forward wouldn't make sense for this."
 		~ Click category label to change the name
 		

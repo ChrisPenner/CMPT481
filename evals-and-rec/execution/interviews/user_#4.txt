@@ -12,7 +12,7 @@ Tasks we get the users to perform
 
 Pre Demo:
 	1. Do you currently or have you ever budget(ed)?
-		Personally? No, maybe, techincally yes. Never followed it. User #2 created a budget for the
+		Personally? No, maybe, techincally yes. Never followed it. User #4 created a budget for the
 		sake a creating a budget. Doesn't believe budgets to be beneficial. Here we talked about
 		some pros and cons.
 			~ "I'm a seasonal worker, would make more sense to budget if I had a consistent 
@@ -20,14 +20,14 @@ Pre Demo:
 					~ "Wouldn't it then make more sense to budget? You know you have this much 
 					   money for these many months, budget to make sure you end by breaking even or
 					   by ending in a surplus."
-		User #2 says their way of budgeting is by asking "do I have enough money for the year?" 
+		User #4 says their way of budgeting is by asking "do I have enough money for the year?" 
 		Where they are "Naturally frugal" they don't make many big purchases and when they do it 
 		doesn't make a big difference. 
 
 	
 Desktop Demo:
 	1. Add three expenses to three different categories
-		~ User #2 had tried using the arrows to increment the amount he was adding but quickly 
+		~ User #4 had tried using the arrows to increment the amount he was adding but quickly 
 		  changed to the num pad.
 		~ Asked for clarification if he was adding an expense for a day/week/month/year 
 	2. Change the name of a category
@@ -56,7 +56,7 @@ Post Desktop Demo Interview:
 
 Mobile Demo:
 	1. Add two expenses to two different categories
-		~ User #2 missed the "Add Another" button
+		~ User #4 missed the "Add Another" button
 			~ After he added the second expense the interviewer asked him to add another expense 
 			  but this time click that button instead of "Done"
 	2. Asked to go to yearly expenses
