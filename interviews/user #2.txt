@@ -1,0 +1,102 @@
+Tasks we get the users to perform
+	~ adding different expenses to two or three different categories
+	~ after adding expenses, (go to screen) for data visualization
+	~ changing the name of a category
+	~ changing the overall budget limit (it will originally be set to 200$)
+	~ change one category limit
+	~ add more expenses to that category and get it to go over the budget limit
+	
+
+	
+	
+
+Pre Demo:
+	1. Do you currently or have you ever budget(ed)?
+		Personally? No, maybe, techincally yes. Never followed it. User #2 created a budget for the
+		sake a creating a budget. Doesn't believe budgets to be beneficial. Here we talked about
+		some pros and cons.
+			~ "I'm a seasonal worker, would make more sense to budget if I had a consistent 
+			   income."
+					~ "Wouldn't it then make more sense to budget? You know you have this much 
+					   money for these many months, budget to make sure you end by breaking even or
+					   by ending in a surplus."
+		User #2 says their way of budgeting is by asking "do I have enough money for the year?" 
+		Where they are "Naturally frugal" they don't make many big purchases and when they do it 
+		doesn't make a big difference. 
+
+	
+Desktop Demo:
+	1. Add three expenses to three different categories
+		~ User #2 had tried using the arrows to increment the amount he was adding but quickly 
+		  changed to the num pad.
+		~ Asked for clarification if he was adding an expense for a day/week/month/year 
+	2. Change the name of a category
+		~ Clicked on the category name
+		~ Clicked on the drop down for adding expenses to a specific category
+		~ Clicked on the settings gear and said "ahh"
+
+		
+Post Desktop Demo Interview:
+	1. Was there anything thing that you found counter intuitive?
+		~ "Add an expense" text makes him think that he can click on it to add an expense, didn't
+		  immediately realize it was a title. 
+		~ Not immediately drawn to the settings gear, clicked on the category title, then the 
+		  category bar, then the category drop down (that you want to add an expense to) to try to
+		  change the name of the category first.
+		~ Scrolling arrows to increment added expense amount is weird, goes up by one.
+		
+	2. If you could change/add things about the app, what would it be? (From desktop perspective)
+		~ Have the arrows to increment added expense increment amount by 10
+		~ Have category names/bars clickable to change category name/add expense/see total expenses
+		~ See the arrows to change between weekly/monthly/yearly be more prominent. Didn't notice 
+		  that until the interviewer pointed them out. 
+		~ Have it be more customizable
+			~ Wants to be able to have more categories (more than 5)
+		
+
+Mobile Demo:
+	1. Add two expenses to two different categories
+		~ User #2 missed the "Add Another" button
+			~ After he added the second expense the interviewer asked him to add another expense 
+			  but this time click that button instead of "Done"
+	2. Asked to go to yearly expenses
+		~ Swiped immediately
+
+		
+Post Mobile Demo Interview:
+	1. Was there anything thing that you found counter intuitive?
+		~ "Add Another" button - wasn't sure it would save first entry
+		~ pressing back button on mobile device ruined data
+		~ clicking save "what if I don't want to save it?"
+		~ swiping was intuitive - didn't notice arrows though
+		
+	2. If you could change/add things about the app, what would it be? (From mobile perspective)
+		~ In settings 
+			~ Change it so that you can see what you're typing in for a category limit
+			~ Have more categories!
+		~ On main page
+			~ Click the category label/bar to add expense
+			~ Don't like that you can't see budget numbers on screen 
+			~ Add indicator that you're getting close to the budget limit, have a bar, half of what
+			  you've spent, half what you have left in budget to spend
+			~ See what you're spending day/month
+
+
+Post Demos:
+	1. How did you find the mobile interface versus the desktop interface
+		~ Gear was much better on mobile, had to figure it out still though
+		~ Pretty much the same
+		~ Desktop has stuff you can do from the main page, mobile has another screen (quick and easy to
+		  use)
+		
+		a. (Probing Question) Which was easiest to use?
+			~ Both were easy
+		
+		b. (Probing Question) For you what made the data more visually clear for you?
+			~ Desktop because on mobile the screen is crammed. 
+				~ Have mobile main screen be add expense and data be a separate page showing all 
+				  weekly/monthly/yearly on one page.
+		
+	2. (If they haven't budgeted before) Would you conttinnue using this app to budget?
+		~ No. It doesn't do much. Want to view list of individual expenses.
+		~ More data, what days you spent, how much you spent, how it changes week to week. 
