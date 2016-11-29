@@ -6,125 +6,97 @@ Tasks we get the users to perform
 	~ change one category limit
 	~ add more expenses to that category and get it to go over the budget limit
 	
+
 	
 	
-		
 
 Pre Demo:
 	1. Do you currently or have you ever budget(ed)?
-		Yes. Right now User #4 doesn't budget actively but they do use Mint.com to make sure old
-		accounts don't have stuff on them and go through current accounts to ensure there are no
-		unknown purchases. 
-		
-		In the past they used spreadsheets for projecting, and sometimes User #4 still uses this
-		method for their savings and for bigger purchases. 
-		
-		User #4 says that they have a facade for budgeting. "Mint.com sucks for things that run over
-		multiple months."
+		Personally? No, maybe, techincally yes. Never followed it. User #2 created a budget for the
+		sake a creating a budget. Doesn't believe budgets to be beneficial. Here we talked about
+		some pros and cons.
+			~ "I'm a seasonal worker, would make more sense to budget if I had a consistent 
+			   income."
+					~ "Wouldn't it then make more sense to budget? You know you have this much 
+					   money for these many months, budget to make sure you end by breaking even or
+					   by ending in a surplus."
+		User #2 says their way of budgeting is by asking "do I have enough money for the year?" 
+		Where they are "Naturally frugal" they don't make many big purchases and when they do it 
+		doesn't make a big difference. 
 
 	
 Desktop Demo:
 	1. Add three expenses to three different categories
-		~ Saw animations and said "Aw thats fancy"
-		~ Didn't use the arrows to increment/decrement
-		~ Added negative numbers
-		~ Found out he could input 'e' (didn't do anything except clear any numbers previously 
-		  typed)
-			~ When asked why the letter User #4 answered "only because I was allowed to"
-	2. Go to monthly view
-		~ Highlighted "Weekly View"
-		~ Went into Settings
-			~ Hit browser back button
-	4. Change the overall budget
-		~ Tried to add -0.10, changed to "NaN"
-	5. Max a category
-		~ Entered 9.99
-			~ Entered 0.01
-				~ Didn't max
+		~ User #2 had tried using the arrows to increment the amount he was adding but quickly 
+		  changed to the num pad.
+		~ Asked for clarification if he was adding an expense for a day/week/month/year 
+	2. Change the name of a category
+		~ Clicked on the category name
+		~ Clicked on the drop down for adding expenses to a specific category
+		~ Clicked on the settings gear and said "ahh"
 
 		
 Post Desktop Demo Interview:
 	1. Was there anything thing that you found counter intuitive?
-		~ Switching between views, the arrows on side made User #4 thing that it would go to a 
-		  history. "Although the forward wouldn't make sense for this."
-		~ Click category label to change the name
+		~ "Add an expense" text makes him think that he can click on it to add an expense, didn't
+		  immediately realize it was a title. 
+		~ Not immediately drawn to the settings gear, clicked on the category title, then the 
+		  category bar, then the category drop down (that you want to add an expense to) to try to
+		  change the name of the category first.
+		~ Scrolling arrows to increment added expense amount is weird, goes up by one.
 		
 	2. If you could change/add things about the app, what would it be? (From desktop perspective)
-		~ Expected a drop down to toggle views
-		~ Add back button to settings page (or a cancel button)
-		~ Hover over category label to see a button to edit the name
-		~ Want to be able to see if you're increasing or decreasing spending of money of if theres a 
-		  certain time of the year you're spending more money (VERY IMPORTANT TO USER - Charting
-		  over time)
-		~ Can't see actual expenses of what you're spending per day on what day
-		~ Only tracking expenses and not income
+		~ Have the arrows to increment added expense increment amount by 10
+		~ Have category names/bars clickable to change category name/add expense/see total expenses
+		~ See the arrows to change between weekly/monthly/yearly be more prominent. Didn't notice 
+		  that until the interviewer pointed them out. 
+		~ Have it be more customizable
+			~ Wants to be able to have more categories (more than 5)
 		
 
 Mobile Demo:
 	1. Add two expenses to two different categories
-		~ Used "Add Another"
-	2. Asked to go to yearly expenses view
-		~ Didn't swipe
+		~ User #2 missed the "Add Another" button
+			~ After he added the second expense the interviewer asked him to add another expense 
+			  but this time click that button instead of "Done"
+	2. Asked to go to yearly expenses
+		~ Swiped immediately
 
 		
 Post Mobile Demo Interview:
 	1. Was there anything thing that you found counter intuitive?
-		~ No, there were things I'd change
+		~ "Add Another" button - wasn't sure it would save first entry
+		~ pressing back button on mobile device ruined data
+		~ clicking save "what if I don't want to save it?"
+		~ swiping was intuitive - didn't notice arrows though
 		
 	2. If you could change/add things about the app, what would it be? (From mobile perspective)
-		~ On Add Expense Page
-			~ Make it so the category budget is visible
-			~ Add back or cancel button
-			~ Light colours for buttons don't look like it's disabled
-				~ Make it grey, or have a notification to say why you can't add an expense
-				~ Can't do anything if there is no category selected, but can do something if there
-				  is no expense inputted, weird
 		~ In settings 
-			~ Add back or cancel button
-		~ On main page: 
-			~ Change arrows to three dots to know to swipe
+			~ Change it so that you can see what you're typing in for a category limit
+			~ Have more categories!
+		~ On main page
+			~ Click the category label/bar to add expense
+			~ Don't like that you can't see budget numbers on screen 
+			~ Add indicator that you're getting close to the budget limit, have a bar, half of what
+			  you've spent, half what you have left in budget to spend
+			~ See what you're spending day/month
 
 
 Post Demos:
 	1. How did you find the mobile interface versus the desktop interface
-		~ It was nice that they both had the same features available. Mint.com disables some
-		  features for their mobile application
+		~ Gear was much better on mobile, had to figure it out still though
+		~ Pretty much the same
+		~ Desktop has stuff you can do from the main page, mobile has another screen (quick and easy to
+		  use)
 		
 		a. (Probing Question) Which was easiest to use?
-			~ Desktop was easiest to use because I can use the refresh button to get out of the
-			  settings page without having to hit "Save"
-			  
+			~ Both were easy
+		
 		b. (Probing Question) For you what made the data more visually clear for you?
-			~ No difference
+			~ Desktop because on mobile the screen is crammed. 
+				~ Have mobile main screen be add expense and data be a separate page showing all 
+				  weekly/monthly/yearly on one page.
 		
-	2. (If they have budgeted before) Have you tried using other budgeting apps before, how did ours 
-	   compare? (Mint.com)
-		~ It's not a fair comparison because mint.com is a professional product made by an 
-		  international finance company
-		~ Your app is easier to use if you are not wanting to have it tied to bank accounts, and is
-		  easier to add expenses.
-		~ I like Mint.com because it has the ability to track not just the value of what you spent
-		  but also when and what the expense was for
-		  
-		a. (Yes - Probing Question) What app allowed you fast input?
-			~ For cash expenses your app is faster, or for expenses if you can't link an account. 
-			~ Mint.com credit card expenses are delayed, however debit transactions are faster 
-			
-		b. (Yes - Probing Question) What app allowed more accurate input?
-			~ It's the same,  both can still see wha tthe amount is before it gets used
-			~ For choosing categories your app is harder, Mint doesn't require me to worry about a
-			  box (for inputting the amount)
-		
-		c. (Yes - Probing Question) How likely to continue using ours or the other one?
-			It has potential, but I wouldn't currently use it.
-			
-			If I were to use it I would want to include location and date of the expense. US is 
-			okay as is, not ideal. I want to be able to go back and change past expenses. I want
-			more data out of the program. Don't want expenses to be summed up. Want monthly budget
-			or yearly budget, don't care about weekly budget. In fact, I want monthly budget to be 
-			the default view, and it not be a sum of the weekly budget. Also the ability to add 
-			income and assets, or my specific bank accounts. 
-			
-			i. (Probing Question) With those changes would you use this app over Mint.com 
-			   consistently? 
-				~ With those changes? Yes. 
+	2. (If they haven't budgeted before) Would you conttinnue using this app to budget?
+		~ No. It doesn't do much. Want to view list of individual expenses.
+		~ More data, what days you spent, how much you spent, how it changes week to week. 
