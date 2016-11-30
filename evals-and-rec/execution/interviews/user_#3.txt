@@ -25,14 +25,17 @@ First we will get the users to perform these tasks on a laptop/desktop browser.
 	data would stay(we have no server connected)
 	If you could change/add things about the app, what would it be? (From desktop perspective)
 	- Wants to customize the colours, More categories would be nice. 
-
+	- Would like to see a break down on when and what things were spent on
+	
 We will then proceed to get the users to perform these tasks on a mobile device of their 
 preference.
 	Was there anything thing that you found counter intuitive?
 	- I don't like have to press the plus compared to the desktop but this is
-because i had to use the desktop first. 
+	  because i had to use the desktop first. 
+	- Could of flipped graphs to make them all fit on the screen
 	If you could change/add things about the app, what would it be? (From mobile perspective)
 	- fix formatting to fit better, similar wants to desktop! more features
+	- Wanted a remove button to fix input mistakes
 
 We will also ask:
 How did you find the mobile interface versus the desktop interface?

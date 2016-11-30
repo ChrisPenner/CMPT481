@@ -1,0 +1,100 @@
+Reactions:
+Positive:
+	[User 1]
+	- Found it very easy to see where I have over spent
+	- Adding a new category was very easy
+	- Very easy to read the graphs 
+	- easier on mobile, because the carry over from the desktop experience
+	-  would contiue using it because it is easier and neater then using
+	  pen and paper	
+
+	[User 2]
+	- Liked the use of animations
+	- Nice that the mobile and desktop interfaces where so similar
+	- faster for cash expenses
+
+	[User 3]
+	- Likes that it was very easy to use and inputting expenses was quick and
+	  easy
+	- would keep using because it is faster and easier then using paper 
+	-seemed to be able to quickly and easily add expenses
+	-found it straight forward and easy to use and the interface went with the given
+	intuition 
+
+	[User 4]
+	- Found both of the interfaces easy to use 
+	
+	 
+	
+	  
+
+Negative:
+	[User 1]
+	- Found it hard to find the settings screen
+	- Wanted to add a new category not just change a category name
+	- The setting button was confusing a label might help!
+	- being able to fix input errors would be helpful 
+	
+	[User 2]
+	- Clicked category to try to change name
+	- Would like to see the daily expenses on a per day basis
+	- add income would be nice to help with overal tracking
+	- Cancel/back button on the expense page would be helpful
+	- Found a few bugs with the system
+	- dots instead of arrows would make a person know to swipe
+	- More customizability would be nice
+	- default view should be monthly
+
+	[User 3]
+	- default view should be monthly
+	- Wanted to be able to customize the colour and categories more!
+	- More break down on the spending would be nice 
+	- Found the plus on the mobile version to be confusing
+	- More features wanted
+	- 
+
+	[User 4]
+	- Found the setting icon confusing
+	- More differentiation between buttons and labels would be helpful to make
+	  things work better 	
+	- make the switching between weekly/monthly/yearly view easier to see
+	- increment amounts by 10 using arrows instead of the number pad
+	- More categories 
+	- "Add Another" button - wasn't sure it would save first entry
+
+
+outliers:
+~ It would be cool to have a widget so you can add an expense really easily without having 
+  to open the app. Customizable widgets too, so if you wanted a quick add expense button, 
+  or if you wanted to just see where you were budget wise(total amount spent versus 
+  remaining budget amount, OR only total spent, OR only remaining budget amount)
+
+~ Your app is easier to use if you are not wanting to have it tied to bank accounts, and is
+  easier to add expenses.
+~ I like Mint.com because it has the ability to track not just the value of what you spent
+  but also when and what the expense was for
+~ user 2 would want a more complete and complicated app to contiue using
+the application
+
+- Could of flipped graphs to make them all fit on the screen
+- More of a learning curve on the mobile version then desktop
+
+~ Don't like that you can't see budget numbers on screen 
+~ Add indicator that you're getting close to the budget limit, have a bar, half of what
+
+Jonathans thoughts and comments:
+The users wanted to be able to do more, they wanted to be able to customize the
+app more to there needs. Almost all of the users wanted to have more features
+and do more with the app. They all found it quick and easy to input the data but
+wanted to be able to view more data about spending. Issues came from the gear
+button for the setting 3 of the users had an issue with this, a label for
+setting might help. The mobile experience was easier then the desktop experience
+which is what we wanted to achieve. Given the limited data that we have gathered
+users liked the fast input but are willing to invest more time in seeing
+different stats on there data. Most were not satisfied with the limited
+information on there spending.
+
+We achieved some of our goals for the application. We were able to get fast
+input and reading of graphs but the viewing of the spending is not a main
+concern. Users wanted a more complicated interface that tells them information
+and not just a stripped down application

@@ -9,20 +9,23 @@ questions:
 Tasks we get the users to perform
 	~ adding different expenses to two or three different categories
 		-Tried to click on the expense graph to add an expense
-		-Made an error of adding an expense to the housing cat. forgot to change
-		 from the food cat.
-		- found it easy to see the overage
+		-Made an error of adding an expense to the housing category forgot to change
+		 from the food category
+		- found it easy to see the categorys that went over liked the feedback
 
 	~ after adding expenses, (go to screen) for data visualization
 	~ changing the name of a category
 		- Did not recognise the setting button!
 		- had no problems adding the new cat. name
+		- Wanted to add a new category not just changed the name
 	~ changing the overall budget limit (it will originally be set to 200$)
 		- once the settings screen was known no problem with this
 	~ change one category limit
 		- was confused on where to find this but once found it was easy to do
+		- When they first looked in the setting file they missed that this was
+		  there
 	~ add more expenses to that category and get it to go over the budget limit
-	- overall found it intutive, she didn't know what the settings button was!
+		- overall found it intutive, she didn't know what the settings button was!
 
 
 First we will get the users to perform these tasks on a laptop/desktop browser. 
@@ -31,10 +34,11 @@ tasks.
 If they appear to be moving slowly or talking to themselves during this process we will ask them
 to elaborate their thought process immediately. After they're finished the tasks ask:
 	Was there anything thing that you found counter intuitive?
-	 - found the setting button confusing
+	 - found the setting button confusing, thought that a label would be helpful
 	 - graphs were easy to read and understand when went over
 	If you could change/add things about the app, what would it be? (From desktop perspective)
-		- would like to be able to adjust if an ammount is entered wrong
+		- would like to be able to adjust if an ammount is entered wrong, No
+		  delete money button
 
 We will then proceed to get the users to perform these tasks on a mobile device of their 
 preference.
@@ -47,11 +51,14 @@ to elaborate their thought process immediately. After they're finished the tasks
 
 -took a little while to find the plus on the mobile app
 -with the experience on the desktop application was much faster on the mobile
+- Wished that there was more touch interaction on the mobile version
 
 
 We will also ask:
 How did you find the mobile interface versus the desktop interface?
 	- easier on mobile, because the carry over from the desktop experience
+	- More used to using the Ipad so this could also help, more used to a mobile
+	  interface
 	(Probing Question) Which was easiest to use?
 	(Probing Question) For you what made the data more visually clear for you?
 	- easier to read graphs on mobile
@@ -63,7 +70,8 @@ How did you find the mobile interface versus the desktop interface?
 	(Yes - Probing Question) What app allowed more accurate input?
 	(Yes - Probing Question) Are you more likely to continue using ours or the other one?
 	(No - Probing Question) Why?
-	- Not available when she used to budget
+	- Not available when she started to budget and has stuck with the same
+	  method
 		(Probing Question) After testing this app, would you be likely to continue using it consistently? 
 	- yes i would contiue using it because it is easier and neater then using
 	  pen and paper
