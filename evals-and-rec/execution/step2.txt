@@ -5,7 +5,7 @@ Positive:
 	- Adding a new category was very easy
 	- Very easy to read the graphs 
 	- easier on mobile, because the carry over from the desktop experience
-	-  would contiue using it because it is easier and neater then using
+	-  would continue using it because it is easier and neater then using
 	  pen and paper	
 
 	[User 2]
@@ -38,7 +38,7 @@ Negative:
 	[User 2]
 	- Clicked category to try to change name
 	- Would like to see the daily expenses on a per day basis
-	- add income would be nice to help with overal tracking
+	- add income would be nice to help with overall tracking
 	- Cancel/back button on the expense page would be helpful
 	- Found a few bugs with the system
 	- dots instead of arrows would make a person know to swipe
@@ -63,7 +63,7 @@ Negative:
 	- "Add Another" button - wasn't sure it would save first entry
 
 
-outliers:
+Outliers:
 ~ It would be cool to have a widget so you can add an expense really easily without having 
   to open the app. Customizable widgets too, so if you wanted a quick add expense button, 
   or if you wanted to just see where you were budget wise(total amount spent versus 
@@ -73,16 +73,16 @@ outliers:
   easier to add expenses.
 ~ I like Mint.com because it has the ability to track not just the value of what you spent
   but also when and what the expense was for
-~ user 2 would want a more complete and complicated app to contiue using
+~ user 2 would want a more complete and complicated app to continue using
 the application
 
-- Could of flipped graphs to make them all fit on the screen
+- Could have flipped graphs to make them all fit on the screen
 - More of a learning curve on the mobile version then desktop
 
 ~ Don't like that you can't see budget numbers on screen 
 ~ Add indicator that you're getting close to the budget limit, have a bar, half of what
 
-Jonathans thoughts and comments:
+Jonathan's thoughts and comments:
 The users wanted to be able to do more, they wanted to be able to customize the
 app more to there needs. Almost all of the users wanted to have more features
 and do more with the app. They all found it quick and easy to input the data but
