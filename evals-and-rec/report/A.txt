@@ -1,0 +1,24 @@
+\section{Problem and Motivation}
+
+In 1980, the ratio for debt-to-income in Canada is 66%; that ratio passed the 150% figure in 2011.
+1 At a young age Canadians are taught how to count and spend money but we are not all taught how to
+budget effectively. Whether you are a businessowner, student, or bringing home the bacon for your
+family; it is important to budget. Budgeting allows a person to determine if they will have enough
+money for what they need to do and what they would like to do. The reason people might fall in to
+debt is the fact that they are spending more than they expected. If a person was to set aside a
+predetermined amount of money that they wish to spend each week or month and could better visualize
+their spending habits in relation to their saving. This will allow them to better prioritize their
+budget and find areas to increase savings.
+
+It can be easy to forget to add expenses as they occur throughout the day. Reasons for this may
+include that the method of inputting their expenses is too time-consuming or difficult to use; or
+that their budgeting application is not available on their mobile device. Many of the current
+applications that are purposed towards tracking weekly or monthly recreational budgets (non
+re-occurring bills and expenses) are not easy to use or engaging for the user. Most visualization
+techniques present in other applications focus solely on the amount of money spent in each
+category, however this overlooks the primary purpose of budgeting and does not deliver the
+information of how the amount spent relates to the users savings goals. Many applications sacrifice
+ease-of-use by adding clutter for additional (often unused) features. When navigating many of these
+applications it can seem that there is ”too much going on”. Accessibility of the application can
+also be an issue, disparity in interface between the Desktop and mobile versions can be a confusing
+experience. Some applications are not available on all devices.
