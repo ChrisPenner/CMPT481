@@ -1,5 +1,7 @@
 \documentclass{chi2011}
 \usepackage[pdftex]{hyperref}
+\usepackage{enumitem}
+\usepackage{scrextend}
 \hypersetup{%
 pdftitle={Your Title},
 pdfauthor={Your Authors},
@@ -42,6 +44,30 @@ breaklinks=true,
 \maketitle
 
 \section{Problem and Motivation}
+
+In 1980, the ratio for debt-to-income in Canada is 66%; that ratio passed the 150% figure in 2011.
+1 At a young age Canadians are taught how to count and spend money but we are not all taught how to
+budget effectively. Whether you are a businessowner, student, or bringing home the bacon for your
+family; it is important to budget. Budgeting allows a person to determine if they will have enough
+money for what they need to do and what they would like to do. The reason people might fall in to
+debt is the fact that they are spending more than they expected. If a person was to set aside a
+predetermined amount of money that they wish to spend each week or month and could better visualize
+their spending habits in relation to their saving. This will allow them to better prioritize their
+budget and find areas to increase savings.
+
+It can be easy to forget to add expenses as they occur throughout the day. Reasons for this may
+include that the method of inputting their expenses is too time-consuming or difficult to use; or
+that their budgeting application is not available on their mobile device. Many of the current
+applications that are purposed towards tracking weekly or monthly recreational budgets (non
+re-occurring bills and expenses) are not easy to use or engaging for the user. Most visualization
+techniques present in other applications focus solely on the amount of money spent in each
+category, however this overlooks the primary purpose of budgeting and does not deliver the
+information of how the amount spent relates to the users savings goals. Many applications sacrifice
+ease-of-use by adding clutter for additional (often unused) features. When navigating many of these
+applications it can seem that there is ”too much going on”. Accessibility of the application can
+also be an issue, disparity in interface between the Desktop and mobile versions can be a confusing
+experience. Some applications are not available on all devices.
+
 \section{Related Literature and Background}
 \section{Description of The System}
 
@@ -58,7 +84,7 @@ breaklinks=true,
     down to only 3 screens, one for each of the tasks users are allowed to
     perform:
 
-    \begin{itemize}
+    \begin{itemize}[noitemsep]
         \item Add an expense
         \item View expenses
         \item Customize budget allowances
@@ -82,7 +108,7 @@ breaklinks=true,
     obstacles and decisions were made to cut or work around some features.
     Features which were cut or altered include:
 
-    \begin{itemize}
+    \begin{itemize}[noitemsep]
         \item Saving data across sessions
         \item Cancelling expenses
         \item Viewing individual expenses
@@ -110,8 +136,57 @@ breaklinks=true,
 
     \subsection{Retrospective}
 
-\section{Evaluation and User Reports}
-\section{Conclusion}
+\section{Evaluation with User Reports}
+
+	\subsection{Goals, Approach and Rational for the Evaluation}
+
+		\subsubsection{Goals}
+
+		The primary goal of our project is for users to use our application to continuously track their
+		expenses. It is our belief that if the application is made easy to use through an intuitive
+		interface and navigation then the user will also be able to input expenses quickly and efficiently.
+		If the user can quickly tell us how much they have spent in a specific category after expenses have
+		been entered then it confirms that the application is presenting a clear visualization of the data.
+		Unfortunately the continued use of the application can not be tested within the scope of this class
+		since that would require multiple interviews with the test users to evaluate their usage and a
+		high-fidelity prototype.
+
+		\subsubsection{Approach and Rational for the Evaluation}
+
+		We will use interviews to evaluate our goals. Seeking to determine what they require to make their
+		budgeting experience with our app the most enjoyable.
+
+
+	\subsection{Actual Participant Pool and Other Execution Details}
+
+	We had used a mixture of family/friends for our test cases. 
+
+	\begin{labeling}{User 4}
+		\item [User 1] An individual who has limited experience with computers.  
+		\item [User 2] An individual who has a degree in computer science and may offer some valuable 
+		criticisms. 
+		\item [User 3] Older demographic who may have budgeted using other methods in the past.
+		\item [User 4] A business student who has studied budgeting.
+	\end{labeling}
+
+
+	\subsection{Divergence from Milestone III Evaluation Plan}
+
+	Put stuff here.
+
+
+	\subsection{Results}
+
+	Also put stuff here.
+
+
+	\subsection{Conclusion}
+
+	And more stuff here.
+
+\section{Final Recommendations}
+
+\section{Appendices}
 
 \bibliographystyle{acm-sigchi}
 \bibliography{sample}
