@@ -1,8 +1,4 @@
 \documentclass{chi2011}
-\usepackage{times}
-% \usepackage{url}
-\usepackage{graphics}
-\usepackage{color}
 \usepackage[pdftex]{hyperref}
 \hypersetup{%
 pdftitle={Your Title},
@@ -17,9 +13,6 @@ linkcolor=black,
 urlcolor=black,
 breaklinks=true,
 }
-\newcommand{\comment}[1]{}
-\definecolor{Orange}{rgb}{1,0.5,0}
-\newcommand{\todo}[1]{\textsf{\textbf{\textcolor{Orange}{[[#1]]}}}}
 
 \pagenumbering{arabic}  % Arabic page numbers for submission.  Remove this line to eliminate page numbers for the camera ready copy
 
@@ -53,7 +46,68 @@ breaklinks=true,
 \section{Description of The System}
 
     \subsection{Initial Prototype}
+
+    The intention was to build an application that was as easy to use as
+    possible, users should be able to jump right into the tasks without prior
+    training and be able to complete them confidently and successfully. The
+    easiest way to accomplish this was to minify the scope of the application
+    to its simplest possible subset. Minimizing the number of actions available
+    simplifies the interface and allows the user to navigate confidently.
+
+    In the initial "Wizard of Oz" style paper prototype the interface was pared
+    down to only 3 screens, one for each of the tasks users are allowed to
+    perform:
+
+    \begin{itemize}
+        \item Add an expense
+        \item View expenses
+        \item Customize budget allowances
+    \end{itemize}
+
+    As with any design process it was quickly discovered during trials that
+    it was unclear how to perform certain actions; for instance there was no
+    functionality for cancelling or removing an expense. Each hiccup was noted
+    and changes were prioritized for the next prototyping stage.
+
     \subsection{Adjustments}
+    
+    The next prototype was constructed as a fully interactive and functional
+    web application using javascript, html and css. This allowed us to
+    implement the functionality which was missing from our paper prototypes
+    such as animations, calculations, and the use of real data.
+
+    A critical analysys was performed on the data collected from the
+    paper-prototype trials. This inspired a focus on displaying the information
+    available as clearly as possible. Naturally the implementation met some
+    obstacles and decisions were made to cut or work around some features.
+    Features which were cut or altered include:
+
+    \begin{itemize}
+        \item Saving data across sessions
+        \item Cancelling expenses
+        \item Viewing individual expenses
+        \item Cancel buttons/back buttons
+        \item Adding additional expense categories
+    \end{itemize}
+
+    We determined that many of these features were "nice to have" however were
+    not crucial for the testing stage of this level of prototype. These
+    concerns are addressed again in the retrospective portion of the report.
+
+    Overall the choice of web technologies suited the implementation well;
+    particularly the ability to use the same prototype on mobile and desktop.
+    A familiarity with React and Redux allowed quick bug-free edits when
+    concerns regarding functionality or layout were raised. The use of Redux
+    specifically simplified the problem of syncing data across the application
+    trivial. These choices were made within a forward thinking context, if the
+    application were to move forward to large scale deployment the code may
+    progress towards that goal.
+
+    One of the greatest difficulties faced was that of creating a responsive
+    layout that allowed code re-use across Mobile and Desktop devices. The
+    preference was for the interfaces to be similar enough to allow habits
+    formed on one device to 
+
     \subsection{Retrospective}
 
 \section{Evaluation and User Reports}
