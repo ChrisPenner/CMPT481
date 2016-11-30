@@ -1,0 +1,48 @@
+\section{Evaluation with Users Report}
+
+
+\subsection{Goals, Approach and Rational for the Evaluation}
+
+\subsubsection{Goals}
+
+The primary goal of our project is for users to use our application to continuously track their
+expenses. It is our belief that if the application is made easy to use through an intuitive
+interface and navigation then the user will also be able to input expenses quickly and efficiently.
+If the user can quickly tell us how much they have spent in a specific category after expenses have
+been entered then it confirms that the application is presenting a clear visualization of the data.
+Unfortunately the continued use of the application can not be tested within the scope of this class
+since that would require multiple interviews with the test users to evaluate their usage and a
+high-fidelity prototype.
+
+\subsubsection{Approach and Rational for the Evaluation}
+
+We will use interviews to evaluate our goals. Seeking to determine what they require to make their
+budgeting experience with our app the most enjoyable.
+
+
+\subsection{Actual Participant Pool and Other Execution Details}
+
+We had used a mixture of family/friends for our test cases. 
+
+\begin{itemize}[noitemsep]
+    \item User 1 An individual who has limited experience with computers.  
+	\item User 2 An individual who has a degree in computer science and may offer some valuable 
+	criticisms. 
+	\item User 3 Older demographic who may have budgeted using other methods in the past.
+	\item User 4 A business student who has studied budgeting.
+\end{itemize}
+
+
+\subsection{Divergence from Milestone III Evaluation Plan}
+
+Put stuff here.
+
+
+\subsection{Results}
+
+Also put stuff here.
+
+
+\subsection{Conclusion}
+
+And more stuff here.
