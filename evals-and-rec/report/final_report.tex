@@ -72,11 +72,11 @@ breaklinks=true,
     \subsection{Adjustments}
     
     The next prototype was constructed as a fully interactive and functional
-    web application using javascript, html and css. This allowed us to
+    web application using Javascript, html and CSS. This allowed us to
     implement the functionality which was missing from our paper prototypes
     such as animations, calculations, and the use of real data.
 
-    A critical analysys was performed on the data collected from the
+    A critical analysis was performed on the data collected from the
     paper-prototype trials. This inspired a focus on displaying the information
     available as clearly as possible. Naturally the implementation met some
     obstacles and decisions were made to cut or work around some features.
@@ -90,9 +90,9 @@ breaklinks=true,
         \item Adding additional expense categories
     \end{itemize}
 
-    We determined that many of these features were "nice to have" however were
-    not crucial for the testing stage of this level of prototype. These
-    concerns are addressed again in the retrospective portion of the report.
+    Many features were determined to be "nice to have" but not crucial for the
+    testing stage of this level of prototype. These concerns are addressed
+    again in the retrospective portion of the report.
 
     Overall the choice of web technologies suited the implementation well;
     particularly the ability to use the same prototype on mobile and desktop.
@@ -106,9 +106,40 @@ breaklinks=true,
     One of the greatest difficulties faced was that of creating a responsive
     layout that allowed code re-use across Mobile and Desktop devices. The
     preference was for the interfaces to be similar enough to allow habits
-    formed on one device to 
+    formed on one device to transfer to the other. To this end CSS media-query
+    rules were used extensively alongside the responsive CSS framework
+    Bulma.io. Google Chrome's developer tools were instrumental in testing
+    the interface on multiple mobile devices.
+
+    Another challenge was the limited screen real-estate on mobile devices.
+    Navigation items needed to be accessible without getting in the way.
+    Additional complexity was added to the application to hide and show certain
+    screens since there is not enough room on a mobile device for all screens
+    to be showing at the same time.
 
     \subsection{Retrospective}
+
+    As expected, user testing of the interactive prototype was very revealing of
+    yet more flaws, but also of successes in our design. 
+
+    The application failed to account for the change in idioms between mobile
+    and desktop, i.e. users tried to edit categories or add expenses by touching
+    interface elements. Most users mentioned that they would like more
+    functionality, many of the requested features were originally part our the
+    design but were left out due to time constraints, cluttering of the
+    interface, or implementation difficulties.
+
+    It seemed that the most difficulty was encountered in navigation between
+    features and the discoverability of functionality. This suggests that this
+    is an area of potentially large benefit with lower amounts of work.
+
+    Some requested features were deliberately left out. For instance one user
+    mentioned that they prefer that their budgeting app links to their bank
+    account and tracks their expenses automatically. Not only was this out of
+    scope for the time-frame of the project, but it is also contrary to the
+    design principles of being as simple as possible. Several other features
+    would be rejected for the purposes of keeping the interface clean and
+    simple.
 
 \section{Evaluation and User Reports}
 \section{Conclusion}
