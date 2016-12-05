@@ -1,5 +1,6 @@
 \documentclass{chi2011}
 \usepackage[pdftex]{hyperref}
+\usepackage[backend=bibtex,style=verbose-trad2]{biblatex}
 \usepackage{enumitem}
 \usepackage{scrextend}
 \usepackage{graphicx}
@@ -19,6 +20,7 @@ breaklinks=true,
 
 \pagenumbering{arabic}  % Arabic page numbers for submission.  Remove this line to eliminate page numbers for the camera ready copy
 
+\bibliography{final_report}
 \begin{document}
 % To make various LaTeX processors do the right thing with page size.
 \special{papersize=8.5in,11in}
@@ -48,7 +50,7 @@ breaklinks=true,
 
 In 1980, the ratio for debt-to-income in Canada was 66\%; that ratio passed
 150\% in 2011. 
-%\autocite[1]{STATSCAN:1}
+\autocite[1]{STATSCAN:1}
 At a young age many Canadians are
 taught how to count and spend money; however not all are taught how to budget
 effectively. Whether you are a business owner, student, or bringing home the
@@ -333,7 +335,7 @@ more customizability and a better break down of the spending as was requested
 by the users. The settings icon would also be changed since this confused some of the
 users. The addition of labels to the icons would solve this confusion.
 
-\subsection{Reflection on design Process}
+\subsection{Reflection on Design Process}
 
 Originally the plan was to implement a very simple and slimmed down design
 for a budgeting application the biggest observation since that initial plan
@@ -919,8 +921,9 @@ interface designs.
 		\end{itemize}
 	\end{itemize}
 
-\bibliographystyle{acm-sigchi}
-\bibliography{sample}
-% \printbibliography
+    % \bibliographystyle{acm-sigchi}
+
+\newpage
+\printbibliography
 
 \end{document}

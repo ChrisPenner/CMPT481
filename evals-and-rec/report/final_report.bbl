@@ -1,0 +1,50 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nty/global/}
+  \entry{STATSCAN:1}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CRK}{%
+         family={Chawla},
+         family_i={C\bibinitperiod},
+         given={Raj\bibnamedelima K.},
+         given_i={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=US}{%
+         family={Uppal},
+         family_i={U\bibinitperiod},
+         given={Sharanjit},
+         given_i={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CRKUS1}
+    \strng{fullhash}{CRKUS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+  \field{note}{\small{\url{http://www.statcan.gc.ca/pub/75-001-x/2012002/article/11636-eng.htm}}}
+    \field{number}{2}
+    \field{title}{Household debt in Canada}
+    \field{volume}{24}
+    \field{journaltitle}{Perspectives on Labour and Income.}
+    \field{month}{06}
+    \field{year}{2012}
+  \endentry
+\endsortlist
+\endinput
