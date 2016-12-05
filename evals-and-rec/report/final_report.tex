@@ -46,27 +46,34 @@ breaklinks=true,
 
 \section{Problem and Motivation}
 
-In 1980, the ratio for debt-to-income in Canada is 66%; that ratio passed the 150% figure in 2011.
-1 At a young age Canadians are taught how to count and spend money but we are not all taught how to
-budget effectively. Whether you are a businessowner, student, or bringing home the bacon for your
-family; it is important to budget. Budgeting allows a person to determine if they will have enough
-money for what they need to do and what they would like to do. The reason people might fall in to
-debt is the fact that they are spending more than they expected. If a person was to set aside a
-predetermined amount of money that they wish to spend each week or month and could better visualize
-their spending habits in relation to their saving. This will allow them to better prioritize their
+In 1980, the ratio for debt-to-income in Canada was 66\%; that ratio passed
+150\% in 2011. 
+%\autocite[1]{STATSCAN:1}
+At a young age many Canadians are
+taught how to count and spend money; however not all are taught how to budget
+effectively. Whether you are a business owner, student, or bringing home the
+bacon for your family; it is important to budget. Budgeting allows a person to
+determine if they will have enough money for their needs and allows them to
+plan for the things they want. The reason people fall in to debt is that they
+are spending more than they expected to spend. If a person was to plan ahead
+and set aside a predetermined amount of money for each week or month and could
+visualize their spending habits it would allow them to better prioritize their
 budget and find areas to increase savings.
 
-It can be easy to forget to add expenses as they occur throughout the day. Reasons for this may
-include that the method of inputting their expenses is too time-consuming or difficult to use; or
-that their budgeting application is not available on their mobile device. Many of the current
-applications that are purposed towards tracking weekly or monthly recreational budgets (non
-re-occurring bills and expenses) are not easy to use or engaging for the user. Most visualization
-techniques present in other applications focus solely on the amount of money spent in each
-category, however this overlooks the primary purpose of budgeting and does not deliver the
-information of how the amount spent relates to the users savings goals. Many applications sacrifice
-ease-of-use by adding clutter for additional (often unused) features. When navigating many of these
-applications it can seem that there is ”too much going on”. Accessibility of the application can
-also be an issue, disparity in interface between the Desktop and mobile versions can be a confusing
+It can be easy to forget to add expenses as they occur throughout the day.
+Some reasons for this are that the method of inputting their expenses may be
+too time-consuming or difficult to use; or that their budgeting application is
+not available on their mobile device. Many of the current applications that
+are purposed towards tracking weekly or monthly recreational budgets (non
+re-occurring bills and expenses) are not easy to use or engaging for the user.
+Visualization techniques present in other applications tend to focus solely
+on the amount of money spent in each category, however this overlooks the
+primary purpose of budgeting and does not deliver the information of how the
+amount spent relates to the user's savings goals. Many applications sacrifice
+ease-of-use by adding clutter for additional (often unused) features. When
+navigating many of these applications it can seem like there is ”too much
+going on”. Accessibility of the application can also be an issue, disparity
+in the interface between the Desktop and mobile versions can be a confusing
 experience. Some applications are not available on all devices.
 
 \section{Related Literature and Background}
@@ -129,14 +136,13 @@ experience. Some applications are not available on all devices.
     trivial. These choices were made within a forward thinking context, if the
     application were to move forward to large scale deployment the code may
     progress towards that goal.
+
 	\begin{figure}[h!]
 		\caption{Desktop Interface}
 		\includegraphics[width=\linewidth]{desktop-main.png}
 	\end{figure}
 
-	
-
-    One of the greatest difficulties faced was that of creating a responsive
+    One of the greatest difficulties was that of creating a responsive
     layout that allowed code re-use across Mobile and Desktop devices. The
     preference was for the interfaces to be similar enough to allow habits
     formed on one device to transfer to the other. To this end CSS media-query
@@ -149,6 +155,7 @@ experience. Some applications are not available on all devices.
     Additional complexity was added to the application to hide and show certain
     screens since there is not enough room on a mobile device for all screens
     to be showing at the same time.
+
 	\begin{figure}[h!]
 		\caption{mobile Interface}
 		\includegraphics[scale=0.5]{mobile-charts.png}
@@ -156,27 +163,28 @@ experience. Some applications are not available on all devices.
 
     \subsection{Retrospective}
 
-	As expected, user testing of the interactive prototype was very revealing of
-    yet more flaws, but also of successes in our design. 
+    As expected, user testing of the interactive prototype revealed yet more
+    flaws, but also successes in the design.
 
     The application failed to account for the change in idioms between mobile
-    and desktop, i.e. users tried to edit categories or add expenses by touching
-    interface elements. Most users mentioned that they would like more
-    functionality, many of the requested features were originally part our the
-    design but were left out due to time constraints, cluttering of the
+    and desktop; for instance users tried to edit categories or add expenses
+    by touching interface elements. Most users mentioned that they would like
+    more functionality, many of the requested features were originally part our
+    the design but were left out due to time constraints, cluttering of the
     interface, or implementation difficulties.
 
-    It seemed that the most difficulty was encountered in navigation between
-    features and the discoverability of functionality. This suggests that this
-    is an area of potentially large benefit with lower amounts of work.
+    It seemed that the most difficulty encountered by users was found in
+    navigating between features and the discoverability of functionality. This
+    suggests that this is an area of potentially large benefit with lower
+    amounts of work.
 
-    Some requested features were deliberately left out. For instance one user
-    mentioned that they prefer that their budgeting app links to their bank
-    account and tracks their expenses automatically. Not only was this out of
-    scope for the time-frame of the project, but it is also contrary to the
-    design principles of being as simple as possible. Several other features
-    would be rejected for the purposes of keeping the interface clean and
-    simple.
+    Some requested features were deliberately left out. One user mentioned that
+    they prefer that their budgeting app links to their bank account and tracks
+    their expenses automatically, this pedigree of feature was not only this
+    out of scope for the time-frame of the project, but it is also contrary
+    to the design principles of being as simple as possible. Several other
+    features would be rejected for the purposes of keeping the interface clean
+    and simple.
 
 \section{Evaluation with User Reports}
 
@@ -185,7 +193,7 @@ experience. Some applications are not available on all devices.
 		\subsubsection{Goals}
 
 		The primary goal of our project is for users to use our application to continuously track their
-		expenses. It is our belief that if the application is made easy to use through an intuitive
+		expenses. It is our belief that if the application is easy to use through an intuitive
 		interface and navigation then the user will also be able to input expenses quickly and efficiently.
 		If the user can quickly tell us how much they have spent in a specific category after expenses have
 		been entered then it confirms that the application is presenting a clear visualization of the data.
@@ -195,28 +203,28 @@ experience. Some applications are not available on all devices.
 
 		\subsubsection{Approach and Rational for the Evaluation}
 
-		We will use interviews to evaluate our goals. Seeking to determine what they require to make their
-		budgeting experience with our app the most enjoyable.
+        Interviews were employed to evaluate our goals. The questions were designed
+        to determine what users require to make their budgeting experience with the
+        application the most enjoyable.
 
 
 	\subsection{Actual Participant Pool and Other Execution Details}
 
-	We had used a mixture of family/friends for our test cases. 
+	A mixture of family and friends represented the users for the test cases that follow.
 
-	\begin{labeling}{User 4}
+	\begin{labeling}{Users}
 		\item [User 1] An individual who has limited experience with computers.  
-		\item [User 2] An individual who has a degree in computer science and may offer some valuable 
-		criticisms. 
-		\item [User 3] Older demographic who may have budgeted using other methods in the past.
+		\item [User 2] An individual who has a degree in computer science and may offer some valuable criticisms. 
+		\item [User 3] Older demographic who has budgeted using other methods in the past.
 		\item [User 4] A business student who has studied budgeting.
 	\end{labeling}
 
 
 	\subsection{Divergence from Milestone III Evaluation Plan}
 
-	Upon implementing our Medium Fidelity-Prototype our task list had diverged from what we initially
-	said our application would be able to do. Instead of only three tasks that would be able to be 
-	performed, the application can now perform five different tasks:
+ Upon implementing the Medium Fidelity-Prototype the task list had diverged
+ from what the original scope of functionality had been. Instead of only three
+ tasks, the application could now perform five different tasks:
 	
 	\begin{itemize}[noitemsep]
 		\item Add an expense (unchanged)
@@ -226,155 +234,169 @@ experience. Some applications are not available on all devices.
 		\item Set a budget limit for one or all categories
 	\end{itemize}
 
-	We had also said that our redesign would offer cancellation of actions to improve user experiense,
-	however we did not include a cancellation option in our "Add Expense" page for the mobile interface.
+        It had originally been planned that the redesign would offer cancellation
+        of actions (forms etc.) to improve the user experience, however due to
+        implementation difficulties this feature was not included.
 
 	\subsection{Results}
 
 	While examining the results from the interviews it was clear that there were both positive and 
-	negative themes. The users appeared to have a preconceived notion on how our application should
-	work from applications they had used in the past, even apps unrelated to budgeting. Due to this
-	knowledge transfer it had caused both positive and negative feedback. 
+	negative themes. The users appeared to have a preconceived notion of how the application should
+	work from applications they had used in the past, even from apps unrelated to budgeting. Due to this
+	(unintentional) knowledge transfer many users were confused for reasons we had not anticipated.
 	
-	Some common themes shared amongst the users were:
+	Some common themes amongst the users were:
 	\begin{itemize}[noitemsep]
-		\item Similar interfaces between mobile and desktop
-		\item Easy and quick to add expenses
-		\item Nice animations
+		\item Enjoyed Similar interfaces between mobile and desktop
+		\item It was easy and quick to add expenses
+		\item The animations were pleasing
 	\end{itemize}
-	Where once the user had learned how to use the application the fact that the desktop and mobile
-	interfaces were so similar, it allowed users to switch between the two with minimal confusion. 
-	The animations engaged the users when they had added expenses into the application, one user
-	was surprised and said "Oh! Fancy." 
-	
+
+        The similarity between the desktop and mobile versions of the application
+        allowed users to switch between the two with minimal confusion once they had
+        learned how to use the application. The animations engaged the users when they
+        had added expenses into the application, one user was surprised and said "Oh!
+        Fancy."
+
+        Some users requested additional features:
 	\begin{itemize}[noitemsep]
-		\item It should be more customizable
+		\item Additional customization
 		\begin{itemize}[noitemsep]
-			\item Pick default view
-			\item Have more categories
+			\item Ability to pick default view
+			\item Ability to add more categories
 		\end{itemize}
-		\item More indepth data 
-		\item Data bars are confusing
-		\item Have the ability to click the label or the bar for the category to be able to edit 
-		the name of the category or view more data. Cancel Buttons
+		\item More in-depth data 
+		\item Ability to click a category's label or the bar to edit the name of the category or view more data. 
+		\item Cancel Buttons
 	\end{itemize}
 	
-	The users wanted to be able to change the default view of budgeting data so they choose
-	what bars of data to see whether it's weekly/monthly/yearly. If they didn't want to see bars of
-	data, then they wanted the option to be able to see individual expenses made as their primary 
-	view. This tied into the theme that users wanted more data available to them, they wanted the
-	breakdown of each individual expense they made by what amount they spent, when they spent it 
-	and where they spent it. Most of the users thought that this could currently be done by 
-	clicking on the category name/bar. However, the bars had caused issues for some users as they 
-	were unsure what they were growing relative to if there was no custom budget. Users wanted an 
-	indicator that they were coming close to filling meeting their budget. It also proved to be 
-	difficult for some users to refresh inputted data if they didn't want to save it. For example,
-	on the add an expense page on the mobile interface a user cried out in frustraction as they hit
-	the back button on their phone closed the application, they wanted it to go back to the 
-	previous page. 
-	
-	User \#2 had gone above and beyond when supplying feedback. They had mentioned for 
-	design ideas that if we were able to create a widget for mobile device and with this widget
-	there could be multiple options for the user to customize. The user would be able to use the 
-	widget to add an expense, to see total amount spent from the budget, see the total remaining 
-	amount from the budget, or a combination of any of the above. 
-	
-	User \#4 even went so far as to say that if we wanted the app to be "fast and easy" to input
-	expenses, then for the mobile interface we should have the add expense page as the default
-	page. 
-	
-	It was agreed upon by all users that on the data bars they wanted to be able to see the total
-	amounts as they would cut off when the bars grew. And on the settings page they all also wanted
-	the textbox for inputing custom budgets to a category to be larger on the mobile cellular 
-	devices.
+    The users wanted to be able to change the default view of budgeting data so
+    they could choose which charts were visible (from weekly/monthly/yearly).
+    Some also wanted the option to be able to see a record of individual
+    expenses as their primary view. These requests show the general theme
+    that that users wanted more data about their habits to be available to
+    them; e.g. a breakdown of each individual expense, the amount they spent,
+    and when and where they spent it. Most users intuitively thought that
+    additional data could be accessed by clicking on the category name/chart (though the feature had not been
+    implemented).
+
+    Confusion occured in regards to the charts because many users were unsure
+    as to the scale of the chart (when no budget limit for a category was set
+    the default was \$100). Users wanted an indicator that they were 
+    close to their budget limit. 
+
+    There were some idiosyncracies of the prototype that caused confusion as
+    well. Due to the way the prototype was implemented, refreshing the page or
+    clicking the "back" button on the browser would erase any expenses that
+    had been entered. This of course was simply a limitation of the current
+    phase of prototype. The fact that the application was simply a website also
+    caused difficulty when one user cried out in frustration as they hit their
+    phone's back button to return to the previous page, but instead closed the
+    application entirely.
+        
+    User \#2 mentioned some design ideas; suggesting to create a widget for mobile
+    devices and to provide customization options through the widget. Perhaps the
+    user could see total amount spent from the budget, see the total remaining
+    amount from the budget, or some combination of the above.
+        
+    User \#4 suggested that making the "Add Expense" page the default screen would
+    make adding expenses even quicker.
+        
+    It was observed by all users that the cost totals on the charts became
+    cut off as their expenses neared their budget amount. There was a strong
+    usability concern that the textbox for customizing budget amounts on the
+    settings page was too small on mobile devices.
 
 	\subsection{Conclusion}
-	The quality of our interface was quite positive and it met the goals that we
-	had initially set out. The layout of the interface worked well, it was easy
-	to use and users had very little trouble performing the tasks that we asked
-	them to do. In general users wanted to be able to do more with the
-	application such as add more categories and more closely track there
-	spending. In this regard our application could use some more improvement but
-	given our goal of a simple and quick interface, we achieved these goals. The
-	testing that we performed showed all the users could quickly add expenses
-	and found the graphs very easy to read. Many of the comments that users made
-	were that they wanted more features but liked the features that we had
-	implemented Our interface met the goals that we set out to achieve which is
-	a quick and easy budgeting application. One of our major goals was the
-	continued use of the application and the majority of the testers said if it
-	was fully functional they would use it.
 
+    The overall opinion of the interface was quite positive and it met the
+    initial goals well. The layout of the interface was effective, it was easy
+    to use and users had very little trouble performing the provided tasks. As
+    before mentioned, the most pervasive theme was that users wanted to be able
+    to do more with the application; such as adding more categories and to be
+    able to more closely track their spending. In this regard the application
+    could still use some improvement. 
+    
+    Though it was not feasible to test whether users continued to use the
+    application over time, the majority of testers said that given a fully
+    functional version they would use it regularly. As for the primary goal of
+    having a simple and quick to use interface it is clear that the application
+    was a success. The testing showed that users could quickly add expenses and
+    that they found the charts easy to read.
 
 \section{Final Recommendations}
 	
-The next step for our application would be to for some minor tweaks but the
-approach was valid. The tweaks would be to move a more complete interface. This
-would allow for more customizability and a better break down of the spending. We
-would also need to change the setting icon since this was confusing for some of
-the users. Once we made these small changes to the interface we could use the
-interface. 
+The application could still stand to gain a lot in the way of usability from
+some minor tweaks however the chosen approach was valid. The tweaks would
+include augmenting the interface to make it more complete. This would allow for
+more customizability and a better break down of the spending as was requested
+by the users. The settings icon would also be changed since this confused some of the
+users. The addition of labels to the icons would solve this confusion.
 
 \subsection{Reflection on design Process}
 
-There was a few changes that we noticed through the twelve weeks we worked on
-this project. We wanted to have a very simple and slimmed down design for a
-budgeting application the biggest change that we found is that users wanted more
-functionality then they need. The simple interface let them easily track basic
-expenses but they all wanted to see more breakdown and more precise information.
+Originally the plan was to implement a very simple and slimmed down design
+for a budgeting application the biggest observation since that initial plan
+is that users wanted more functionality then they actually need. The simple
+interface let them easily track basic expenses and fulfilled all the basic
+needs of simple budgeting, however users requested many "nice to have" features
+which did not contribute directly to this goal.
 
-The overall design of our application changed because of our users. When we did
-our evaluation of the low-fidelity prototype the biggest change was shifting the
-layout. We moved the location of different buttons on the interface. We also
-removed a button that we found to be redundant. With the medium fidelity
-prototype there is lots that we would change this includes allows users more
-customizability and allow them to set a default budget.
+The overall design of our application changed because of the users. The analysis
+of the evaluations of the low-fidelity prototype resulted in a reorganization of the
+application layout. Many buttons on the interface were moved. One button
+was found to be redundant and was removed. Within the medium fidelity
+prototype there were many potential changes to allow users more
+customizability.
 
-We learned lots about using the user-centered design process over the course of
-the project. The process allows us to use the feedback to improve our interface
-and it is something that all of us would continue to use. In hind sight we
-decided there are a few things that we would do differently. The first is we
-would spend more time refining the low-fidelity prototype and add more
-interactivity to that prototype. Some of the issues that appeared in the
-medium fidelity prototype, such as the setting button, could of been caught in
-the low-fidelity prototype. Using a different prototyping tool for the
-low-fidelity prototype may of also made it easier to find these issues.
+We learned a lot about the user-centered design process over the course of
+the project. The process allowed using feedback to improve the interface
+and it is a process that would be beneficial for future projects. It was
+decided in hindsight that there are a few things that should have been done
+differently. The first being that more time should have been spent on refining
+the low-fidelity prototype and that it should have been more interactive. Some
+of the issues that appeared in the medium fidelity prototype, such as the
+setting button, could have been discovered in the low-fidelity prototype. Using a
+different prototyping tool for the low-fidelity prototype may have also made it
+easier to find these issues.
 
-Our approach for evaluating our prototype worked well and gave us enough
-information to judge our interface. The semi structured interviews let us get
-lots of information on different aspects and the reactions of the users as they
-tested the product. We also caught some issues with the observing the users
-interact with the interface, a couple of them wanted to touch the graph to add
-an expense to that category. Using a questionnaire we might not of caught this.
-Using a semi-structure interview worked well for our prototype.
+The chosen approach for evaluating the prototype worked well and gave enough
+information to judge the interface. The semi structured interviews provided
+lots of information on different aspects and relayed the reactions users
+had to the product. Some issues were discovered by observing the users
+interacting with the interface, a couple of them wanted to touch the chart
+to add an expense to a category. Using a questionnaire or some other less
+expressive medium an issue like this would likely not be discovered. Using a
+semi-structured interview was effective.
 
-In this course we learnt lots of useful skills for developing user interfaces.
-One of the skills that is most useful is how to plan and test a interface even
-before implementation. Building and iterating on the low-fidelity prototypes is
-a cost effective way to test. In a personal project this could save a lot of
-time, In a commercial project this could save lots of money. Planning the
-interface is a skill that we will be able to use throughout our future careers.
-Another lesson that we learnt was interviewing and getting feed back from users.
-The skill of extracting information from a user is very important, this could be
-getting feed back or trying to get requirements for a project. With the
-interviews we were trying to get feedback or information in general and this
-practice could be very valuable. There are many lessons from this project that
-we could apply to future projects and interface designs.
+In this course we learned a lot of useful skills for developing a user
+interface. One of the skills that is most useful is how to plan and test an
+interface before implementation. Building and iterating on the low-fidelity
+prototypes is a cost effective way to test effectiveness before further
+investment. In a personal project this would save a lot of time, in a
+commercial project this would save a lot of money. Planning the interface is
+a skill that will transfer well into future careers. Learning to interview
+and get feedback from users was another useful skill. The ability to extract
+information from a user is very important, and will apply in the workplace
+when requesting feedback or obtaining requirements for a project. There are
+many lessons from this project that could be applied to future projects and
+interface designs. 
+
+\newpage
 \section{Appendices}
 
 	\subsection{A1 - Evaluation Instrument}
-	
-	\subsubsection{Tasks we got the users to perform}
+	\subsubsection{Tasks Performed by Users}
 	\begin{itemize}[noitemsep]
-		\item Add different expenses to two or three different categories
-		\item After adding expenses, (go to screen) for data visualization
+		\item Add different expenses to three different categories
+		\item After adding expenses, go to the data visualization screen
 		\item Change the name of a category
-		\item Change the overall budget limit (it will originally be set to 200\$)
+		\item Change the overall budget limit from its default
 		\item Change one category limit
-		\item Add more expenses to that category and get it to go over the budget limit
+		\item Add more expenses to that category to go over the budget limit
 	\end{itemize}
 		
-
-	\subsubsection{Pre-Demos}
+	\subsubsection{Pre-Demo}
 	\begin{itemize}[noitemsep]
 		\item Do you currently or have you ever budget(ed)?
 		\begin{itemize}[noitemsep]
@@ -385,32 +407,32 @@ we could apply to future projects and interface designs.
 	
 	\subsubsection{Post Desktop Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
-		\item If you could change/add things about the app, what would it be? (From desktop perspective)
+		\item Was there anything that you found to be counter-intuitive?
+		\item If you could change/add anything about the app, what would it be? (From desktop perspective)
 	\end{itemize}
 
 	\subsubsection{Post Mobile Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
-		\item If you could change/add things about the app, what would it be? (From mobile perspective)
+		\item Was there anything that you found counter-intuitive?
+		\item If you could change/add anything about the app, what would it be? (From mobile perspective)
 	\end{itemize}
 
 
 	\subsubsection{Post-Demos}
 	\begin{itemize}[noitemsep]
-		\item How did you find the mobile interface versus the desktop interface?
+		\item Compare and contrast the mobile interface and the desktop interface.
 		\begin{itemize}[noitemsep]
 			\item (Probing Question) Which was easiest to use?
-			\item (Probing Question) For you what made the data more visually clear for you?
+			\item (Probing Question) Which made the data more visually clear for you?
 		\end{itemize}	
-	\item (If they had budgeted previously) If you had tried using other budgeting apps before, how did ours compare?
+	\item  Compare and contrast this budgeting application with others you've used.
 		\begin{itemize}[noitemsep]
-			\item (Yes - Probing Question) What app allowed you fast input?
-			\item (Yes - Probing Question) What app allowed more accurate input?
-			\item (Yes - Probing Question) Are you more likely to continue using ours or the other one?
+			\item (Yes - Probing Question) Which app allowed faster input?
+			\item (Yes - Probing Question) Which app allowed more accurate input?
+			\item (Yes - Probing Question) Are you more likely to continue using this application or a different one?
 			\item (No - Probing Question) Why?
 		\end{itemize}
-	\item (If they had not budgeted before) After testing this app, would you be likely to continue using it consistently? 
+	\item (If they had not budgeted before) If this application were available to you, would you be likely to continue using it? 
 	\end{itemize}
 	
 	
@@ -440,16 +462,17 @@ we could apply to future projects and interface designs.
 				\item Did not recognize the settings button
 				\item Found it easy to add the new category name
 				\item Wanted to add a new category not change the name
+            \end{itemize}
 	\end{itemize}
 	
 	\subsubsection{Post Desktop Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
+		\item Was there anything thing that you found counter-intuitive?
 		\begin{itemize}[noitemsep]
 				\item found the setting button confusing, a label would be
 					helpful
 		\end{itemize}
-		\item If you could change/add things about the app, what would it be? (From desktop perspective)
+		\item If you could change/add anything about the app, what would it be? (From desktop perspective)
 		\begin{itemize}[noitemsep]
 				\item Some way of correcting an amount if input incorrectly
 					would be good
@@ -468,12 +491,12 @@ we could apply to future projects and interface designs.
 
 	\subsubsection{Post Mobile Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
+		\item Was there anything thing that you found counter-intuitive?
 		\begin{itemize}[noitemsep]
 			\item No, found the cross over from the desktop made it easy to use
 			\item Wished there was more touch interaction on the mobile version
 		\end{itemize}
-		\item If you could change/add things about the app, what would it be? (From mobile perspective)
+		\item If you could change/add anything about the app, what would it be? (From mobile perspective)
 		\begin{itemize}[noitemsep]
 				\item I would change the same things as with the Desktop version
 		\end{itemize}
@@ -482,7 +505,7 @@ we could apply to future projects and interface designs.
 
 	\subsubsection{Post-Demos}
 	\begin{itemize}[noitemsep]
-		\item How did you find the mobile interface versus the desktop interface?
+		\item Compare and contrast the mobile interface and the desktop interface.
 		\begin{itemize}[noitemsep]
 			\item It was nice that they both had the same features available
 			\begin{itemize}[noitemsep]
@@ -491,12 +514,12 @@ we could apply to future projects and interface designs.
 						platform
 			\end{itemize}
 		\end{itemize}	
-	\item (If they had budgeted previously) If you had tried using other budgeting apps before, how did ours compare?
+	\item Compare and contrast this budgeting application with others you've used.
 		\begin{itemize}[noitemsep]
 				\item Never used a computer for budgeting before but found this
 					easy to use
 		\end {itemize}
-	\item (Probing Question) How likely to continue using ours over the other one?
+	\item (Probing Question) Are you more likely to continue using this application or a different one?
 		\begin{itemize}[noitemsep]
 				\item Yes I would continue to use the application since it is
 					easier and neater then using paper and pen
@@ -550,13 +573,13 @@ we could apply to future projects and interface designs.
 	
 	\subsubsection{Post Desktop Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
+		\item Was there anything thing that you found counter-intuitive?
 		\begin{itemize}[noitemsep]
 			\item Switching between views, the arrows on side made User \#2 thing that it would go to a 
 			history. "Although the forward wouldn't make sense for this."
 			\item Click category label to change the name
 		\end{itemize}
-		\item If you could change/add things about the app, what would it be? (From desktop perspective)
+		\item If you could change/add anything about the app, what would it be? (From desktop perspective)
 		\begin{itemize}[noitemsep]
 			\item Expected a drop down to toggle views
 			\item Add back button to settings page (or a cancel button)
@@ -584,11 +607,11 @@ we could apply to future projects and interface designs.
 
 	\subsubsection{Post Mobile Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
+		\item Was there anything thing that you found counter-intuitive?
 		\begin{itemize}[noitemsep]
 			\item No, but there were things I'd change
 		\end{itemize}
-		\item If you could change/add things about the app, what would it be? (From mobile perspective)
+		\item If you could change/add anything about the app, what would it be? (From mobile perspective)
 		\begin{itemize}[noitemsep]
 			\item On Add Expense Page
 			\item Make it so the category budget is visible
@@ -618,7 +641,7 @@ we could apply to future projects and interface designs.
 
 	\subsubsection{Post-Demos}
 	\begin{itemize}[noitemsep]
-		\item How did you find the mobile interface versus the desktop interface?
+		\item Compare and contrast the mobile interface and the desktop interface.
 		\begin{itemize}[noitemsep]
 			\item It was nice that they both had the same features available. Mint.com disables some
 				  features for their mobile application
@@ -628,13 +651,13 @@ we could apply to future projects and interface designs.
 					\item Desktop was easiest to use because I can use the refresh button to get out of the
 						  settings page without having to hit "Save"
 				\end{itemize}
-			\item (Probing Question) For you what made the data more visually clear for you?
+			\item (Probing Question) Which made the data more visually clear for you?
 				\begin{itemize}[noitemsep]
 					\item No difference
 				\end{itemize}
 			\end{itemize}
 		\end{itemize}	
-	\item (If they had budgeted previously) If you had tried using other budgeting apps before, how did ours compare?
+	\item Compare and contrast this budgeting application with others you've used.
 		\begin{itemize}[noitemsep]
 			\item It's not a fair comparison because mint.com is a professional product made by an 
 				  international finance company
@@ -654,7 +677,7 @@ we could apply to future projects and interface designs.
 			\item For choosing categories your app is harder, Mint doesn't require me to worry about a
 				  box (for inputting the amount)
 		\end{itemize}
-	\item (Probing Question) How likely to continue using ours over the other one?
+	\item (Probing Question) Are you more likely to continue using this application or a different one?
 		\begin{itemize}[noitemsep]
 			\item It has potential, but I wouldn't currently use it.
 
@@ -693,7 +716,7 @@ we could apply to future projects and interface designs.
 	
 	\subsubsection{Post Desktop Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
+		\item Was there anything thing that you found counter-intuitive?
 		\begin{itemize}[noitemsep]
 			\item I do not like that it was weekly, couldn't find the monthly version. Tends to
 			 budget on a monthly basis. 
@@ -701,7 +724,7 @@ we could apply to future projects and interface designs.
 			\item wished that she would could go to a different page then come back and the
 			data would stay(we have no server connected)
 		\end{itemize}
-		\item If you could change/add things about the app, what would it be? (From desktop perspective)
+		\item If you could change/add anything about the app, what would it be? (From desktop perspective)
 		\begin{itemize}[noitemsep]
 				\item I would like to customize the colours more and add more
 					category
@@ -717,13 +740,13 @@ we could apply to future projects and interface designs.
 
 	\subsubsection{Post Mobile Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
+		\item Was there anything thing that you found counter-intuitive?
 			\begin{itemize}[noitemsep]
 				\item I don't like have to press the plus compared to the desktop but this is
 				  because i had to use the desktop first. 
 			  	\item Could of flipped graphs to make them all fit on the screen
 			\end{itemize}
-		\item If you could change/add things about the app, what would it be? (From mobile perspective)
+		\item If you could change/add anything about the app, what would it be? (From mobile perspective)
 		\begin{itemize}[noitemsep]
 			\item Make the format similar to the desktop so that the add
 				expenses is shown all the time
@@ -733,7 +756,7 @@ we could apply to future projects and interface designs.
 
 	\subsubsection{Post-Demos}
 	\begin{itemize}[noitemsep]
-		\item How did you find the mobile interface versus the desktop interface?
+		\item Compare and contrast the mobile interface and the desktop interface.
 		\begin{itemize}[noitemsep]
 				\item Once I got used to the mobile interface it was as good as
 					the desktop and as easy to use
@@ -743,7 +766,7 @@ we could apply to future projects and interface designs.
 					\item Found the desktop easier because everything was on one
 						page
 				\end{itemize}
-			\item (Probing Question) For you what made the data more visually clear for you?
+			\item (Probing Question) Which made the data more visually clear for you?
 				\begin{itemize}[noitemsep]
 					\item It was easier to see the graphs on the mobile since
 						that is all that was on the page
@@ -803,7 +826,7 @@ we could apply to future projects and interface designs.
 	
 	\subsubsection{Post Desktop Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
+		\item Was there anything thing that you found counter-intuitive?
 		\begin{itemize}[noitemsep]
 			\item "Add an expense" text makes him think that he can click on it to add an expense, didn't
 					immediately realize it was a title. 
@@ -812,7 +835,7 @@ we could apply to future projects and interface designs.
 				  change the name of the category first.
 			\item Scrolling arrows to increment added expense amount is weird, goes up by one.
 		\end{itemize}
-		\item If you could change/add things about the app, what would it be? (From desktop perspective)
+		\item If you could change/add anything about the app, what would it be? (From desktop perspective)
 		\begin{itemize}[noitemsep]
 			\item Have the arrows to increment added expense increment amount by 10
 			\item Have category names/bars clickable to change category name/add expense/see total expenses
@@ -843,14 +866,14 @@ we could apply to future projects and interface designs.
 
 	\subsubsection{Post Mobile Demo}
 	\begin{itemize}[noitemsep]
-		\item Was there anything thing that you found counter intuitive?
+		\item Was there anything thing that you found counter-intuitive?
 		\begin{itemize}[noitemsep]
 			\item "Add Another" button - wasn't sure it would save first entry
 			\item Pressing back button on mobile device ruined data
 			\item Clicking save "what if I don't want to save it?"
 			\item swiping was intuitive - didn't notice arrows though
 		\end{itemize}
-		\item If you could change/add things about the app, what would it be? (From mobile perspective)
+		\item If you could change/add anything about the app, what would it be? (From mobile perspective)
 		\begin{itemize}[noitemsep]
 			\item In settings 
 			\begin{itemize}[noitemsep]
@@ -870,7 +893,7 @@ we could apply to future projects and interface designs.
 
 	\subsubsection{Post-Demos}
 	\begin{itemize}[noitemsep]
-		\item How did you find the mobile interface versus the desktop interface?
+		\item Compare and contrast the mobile interface and the desktop interface.
 		\begin{itemize}[noitemsep]
 			\item Gear was much better on mobile, had to figure it out still though
 			\item Pretty much the same
@@ -881,7 +904,7 @@ we could apply to future projects and interface designs.
 				\begin{itemize}[noitemsep]
 					\item Both were easy
 				\end{itemize}
-			\item (Probing Question) For you what made the data more visually clear for you?
+			\item (Probing Question) Which made the data more visually clear for you?
 				\begin{itemize}[noitemsep]
 					\item Desktop because on mobile the screen is crammed. Have mobile main screen be add expense and data be a separate page showing all 
 						  weekly/monthly/yearly on one page.
@@ -895,13 +918,9 @@ we could apply to future projects and interface designs.
 			\item More data, what days you spent, how much you spent, how it changes week to week.
 		\end{itemize}
 	\end{itemize}
-	
-	
-	
-	
-	
 
 \bibliographystyle{acm-sigchi}
 \bibliography{sample}
+% \printbibliography
 
 \end{document}
